@@ -37,7 +37,7 @@ If debugging was an Olympic sport, I’d take silver. Gold goes to whoever wrote
 
 ## 🛠 Tech I Use Without Crying
 <p>
-<img src="https://skillicons.dev/icons?i=react,reactnative,nextjs,js,ts,html,css,tailwind,firebase,supabase,expo,nodejs,git,github,c,python" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,firebase,supabase,nodejs,git,github,c,python" />
 </p>
 
 ---
