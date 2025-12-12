@@ -1,84 +1,59 @@
 <div align="center">
 
-# ⚡ Ganesh  
-**Full-Stack Developer | Mobile App Builder | Logic Machine**
+# Ganesh  
+**Full-Stack Developer • Mobile App Builder**
 
-*"I ship features while others argue about tabs vs spaces."*
-
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="380"/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ganesh-angadi-b52043289)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:ganeshangadi13012006@gmail.com)
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="330"/>
 
 </div>
 
 ---
 
-## 🚀 What I Do
-I build full-stack systems, mobile apps, and real-time features that actually work in production.  
-I don’t write demo apps unless someone’s holding me hostage.
+## About Me
+I design and build full-stack and mobile applications with a focus on reliability, real-time functionality, and clean interfaces.
 
-- End-to-end builds
-- Supabase + Firebase workflows
-- Maps, live tracking, and performance-first UI
-- Complex state management without crying
+My work blends problem-solving, mapping systems, and data-driven features.
 
 ---
 
-## 🛠 Tech Arsenal
+## Tech Stack
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,firebase,supabase,nodejs,git,github,c,python" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,firebase,supabase,git,github,c,python" />
 </div>
 
 ---
 
-## 🔥 Featured Work
-Stuff that survives production without begging for mercy.
-
+## Projects
 | Project | Description | Stack |
-| :--- | :--- | :--- |
-| **🚌 MY(suru) BUS** | Real-time bus tracking app for Mysore. | `React Native` `Supabase` `Leaflet` |
-| **🖥️ The City Reporter** | Full-stack civic issue reporting with map visualizations. | `React` `Node.js` `Firebase` |
+| --- | --- | --- |
+| **MY(suru) BUS** | Cross-platform real-time bus tracking app for Mysore. | RN, Supabase, Leaflet |
+| **The City Reporter** | Civic issue reporting with map-based visualization and admin tools. | React, Node.js, Firebase |
 
 ---
 
-## 🧩 Speed Stats
-If problem-solving was a sport, I’d already be sponsored.
-
-| Puzzle | Avg | PB |
-| :--- | :--- | :--- |
-| Sudoku | 58–65s | 52s |
-| Rubik’s Cube | 60–75s | 48s |
-| 8-Puzzle | 8–12s | **3s** |
+## Problem-Solving Stats
+| Puzzle | PB |
+| --- | --- |
+| Sudoku | 52s |
+| Rubik’s Cube | 48s |
+| 8-Puzzle | 3s |
 
 ---
 
-## ⚽ Sports Side
-- Real Madrid enthusiast for life  
-- F1: Verstappen territory  
-- Cricket: Powered by Virat’s engine
+## Interests
+- Football (Real Madrid)  
+- Formula 1  
+- Cricket Analytics  
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Activity
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=transparent" height="150"/>
 </div>
 
 ---
 
-## 🎯 Current Focus
-Building my first production app, learning the whole build-to-deploy pipeline, freelancing, and experimenting with hardware.
-
----
-
-<div align="center">
-
-## 📫 Contact
-I reply faster than CI/CD breaks.
-
-[Issues](https://github.com/ganeshak11/ganeshak11/issues) • [Email](mailto:ganeshangadi13012006@gmail.com)
-
-</div>
+## Contact
+- **Email:** ganeshangadi13012006@gmail.com  
+- **LinkedIn:** linkedin.com/in/ganesh-angadi-b52043289
