@@ -24,7 +24,7 @@ I build things that actually work, not just "compile successfully."
 
 ### 🛠 Tech I Use Without Crying
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,js,jsx,ts,tsx,html,css,tailwind,firebase,supabase,nodejs,git,github,c,python" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,firebase,supabase,nodejs,git,github,c,python" />
 </div>
 
 ---
