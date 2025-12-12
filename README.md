@@ -1,5 +1,5 @@
 ‎<div align="center">
-‎
+
 ‎# 👋 Hey, I'm Ganesh
 ‎**Full-Stack Developer | Mobile App Builder | Speed Cuber**
 ‎
