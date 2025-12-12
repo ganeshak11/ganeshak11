@@ -1,89 +1,84 @@
 <div align="center">
 
-# 👋 Hey, I'm Ganesh
-**Full-Stack Developer | Mobile App Builder | Speed Cuber**
+# ⚡ Ganesh  
+**Full-Stack Developer | Mobile App Builder | Logic Machine**
 
-*"I solve puzzles faster than most people unlock their phones and pretend sleep isn’t real."*
+*"I ship features while others argue about tabs vs spaces."*
 
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="400"/>
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="380"/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ganesh-angadi-b52043289)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:ganeshangadi13012006@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:ganeshangadi13012006@gmail.com)
 
 </div>
 
 ---
 
-### 🚀 What I Do
-I build things that actually work, not just "compile successfully."
-* **Full-stack & Mobile Dev:** Real-time systems, tracking apps, and Supabase integrations.
-* **The "Spicy" Stuff:** Maps, live location tracking, and complex state management.
-* **Sports Tech Nerd:** Football, F1, and Cricket analytics enthusiast.
+## 🚀 What I Do
+I build full-stack systems, mobile apps, and real-time features that actually work in production.  
+I don’t write demo apps unless someone’s holding me hostage.
+
+- End-to-end builds
+- Supabase + Firebase workflows
+- Maps, live tracking, and performance-first UI
+- Complex state management without crying
 
 ---
 
-### 🛠 Tech I Use Without Crying
+## 🛠 Tech Arsenal
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,firebase,supabase,nodejs,git,github,c,python" />
 </div>
 
 ---
 
-### 📌 Featured Work
-*Stuff I'm not embarrassed to show the world.*
+## 🔥 Featured Work
+Stuff that survives production without begging for mercy.
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **🚌 [MY(suru) BUS](https://github.com/ganeshak11/MY-suru-BUS)** | A cross-platform app for real-time bus tracking and route optimization in Mysore. | `React Native` `Supabase` `Leaflet Maps API` |
-| **🖥️ [The City Reporter](https://github.com/ganeshak11/city-reporter-app)** | Full-stack civic issue reporting system with an interactive map and admin panel. | `React` `Node.js` `FireBase` |
+| **🚌 MY(suru) BUS** | Real-time bus tracking app for Mysore. | `React Native` `Supabase` `Leaflet` |
+| **🖥️ The City Reporter** | Full-stack civic issue reporting with map visualizations. | `React` `Node.js` `Firebase` |
 
 ---
 
-### 🧠 Speed Stats (My "Flex" Zone)
-*If debugging was an Olympic sport, I’d take silver. Gold goes to whoever wrote the bug.*
+## 🧩 Speed Stats
+If problem-solving was a sport, I’d already be sponsored.
 
-| Puzzle | Average Time | Personal Best |
+| Puzzle | Avg | PB |
 | :--- | :--- | :--- |
-| **Sudoku** | ~58-65s | 52s |
-| **Rubik’s Cube** | 60-75s | 48s |
-| **8-Puzzle** | 8–12s | **3s** ⚡ |
+| Sudoku | 58–65s | 52s |
+| Rubik’s Cube | 60–75s | 48s |
+| 8-Puzzle | 8–12s | **3s** |
 
 ---
 
-### ⚽ The Sports Arc
-<div align="left">
-  
-> **"Virat’s aggression runs in my bloodstream."**
-
-* **Football:** Real Madrid till the servers shut down. (Sergio Ramos is forever).
-* **F1:** Max Verstappen fan 🏎️.
-* **Favorites:** Valverde & Asensio enjoyer.
-
-</div>
+## ⚽ Sports Side
+- Real Madrid enthusiast for life  
+- F1: Verstappen territory  
+- Cricket: Powered by Virat’s engine
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150" alt="readme stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="150" alt="top langs"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="150"/>
 </div>
 
 ---
 
-### 🎯 Current Status
-- 🔭 **Building:** My first production-ready app.
-- 🌱 **Learning:** The full pipeline (Build → Deploy → Panic → Fix).
-- 💼 **Freelancing:** Web design & hardware experiments.
+## 🎯 Current Focus
+Building my first production app, learning the whole build-to-deploy pipeline, freelancing, and experimenting with hardware.
 
 ---
 
 <div align="center">
 
-### 📫 Reach Me
-**Coding at 3 AM counts as personality at this point.**
+## 📫 Contact
+I reply faster than CI/CD breaks.
 
-[Open an Issue](https://github.com/ganeshak11/ganeshak11/issues) • [Email Me](mailto:ganeshangadi13012006@gmail.com)
+[Issues](https://github.com/ganeshak11/ganeshak11/issues) • [Email](mailto:ganeshangadi13012006@gmail.com)
 
 </div>
