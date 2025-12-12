@@ -1,59 +1,58 @@
 <div align="center">
 
 # Ganesh  
-**Full-Stack Developer • Mobile App Builder**
-
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="330"/>
+**Full-Stack Developer | Mobile Application Developer**
 
 </div>
 
 ---
 
-## About Me
-I design and build full-stack and mobile applications with a focus on reliability, real-time functionality, and clean interfaces.
-
-My work blends problem-solving, mapping systems, and data-driven features.
+## Summary
+I am a full-stack and mobile developer with experience building real-time applications, map-based systems, and scalable backend integrations.  
+My work focuses on performance, clean architecture, and user-centered design.
 
 ---
 
-## Tech Stack
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,firebase,supabase,git,github,c,python" />
-</div>
+## Technical Skills
+**Frontend:** React, React Native, Next.js, JavaScript, TypeScript, Tailwind CSS  
+**Backend:** Node.js, Firebase, Supabase  
+**Tools:** Git, GitHub, REST APIs, Authentication, State Management  
+**Languages:** C, Python  
 
 ---
 
 ## Projects
-| Project | Description | Stack |
-| --- | --- | --- |
-| **MY(suru) BUS** | Cross-platform real-time bus tracking app for Mysore. | RN, Supabase, Leaflet |
-| **The City Reporter** | Civic issue reporting with map-based visualization and admin tools. | React, Node.js, Firebase |
+### 🚌 MY(suru) BUS  
+A real-time bus tracking and route optimization app designed for Mysore.  
+**Tech:** React Native, Supabase, Leaflet Maps
+
+### 🖥 The City Reporter  
+A complete civic issue reporting system with interactive maps and an admin dashboard.  
+**Tech:** React, Node.js, Firebase
 
 ---
 
-## Problem-Solving Stats
-| Puzzle | PB |
-| --- | --- |
-| Sudoku | 52s |
-| Rubik’s Cube | 48s |
-| 8-Puzzle | 3s |
+## Problem-Solving
+- Sudoku personal best: 52 seconds  
+- Rubik’s Cube personal best: 48 seconds  
+- 8-Puzzle personal best: 3 seconds  
 
 ---
 
 ## Interests
-- Football (Real Madrid)  
-- Formula 1  
-- Cricket Analytics  
+- Sports analytics in Football, F1, and Cricket  
+- UI/UX experimentation  
+- Systems architecture and real-time data workflows  
 
 ---
 
-## GitHub Activity
+## GitHub Insights
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=transparent" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=default" height="150"/>
 </div>
 
 ---
 
 ## Contact
-- **Email:** ganeshangadi13012006@gmail.com  
-- **LinkedIn:** linkedin.com/in/ganesh-angadi-b52043289
+**Email:** ganeshangadi13012006@gmail.com  
+**LinkedIn:** linkedin.com/in/ganesh-angadi-b52043289
