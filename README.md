@@ -23,9 +23,17 @@ I build things that actually work, not just "compile successfully."
 ---
 
 ### 🛠 Tech I Use Without Crying
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,firebase,supabase,nodejs,git,github,c,python" />
-</div>
+<p>
+  <!-- skillicons -->
+  <img src="https://skillicons.dev/icons?i=react,reactnative,nextjs,js,ts,html,css,tailwind,firebase,nodejs,git,github,c,python" />
+
+  <!-- Expo logo -->
+  <img src="https://raw.githubusercontent.com/expo/expo/main/docs/static/images/brand/expo-icon.svg" width="48" />
+
+  <!-- EAS logo (same Expo logo or your own SVG) -->
+  <img src="https://raw.githubusercontent.com/expo/expo/main/docs/static/images/brand/expo-wordmark.svg" width="90" />
+</p>
+
 
 ---
 
