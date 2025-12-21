@@ -69,8 +69,7 @@ I build things that actually work, not just "compile successfully."
 
 ### 📊 GitHub Stats
 <div align="center">
- <img src="https://github-readme-streak-stats.herokuapp.com/?user=ganeshak11&theme=github-dark-blue&background=181820&stroke=A259FF&ring=75C850&fire=F97EAE&currStreakNum=A259FF&sideNums=75C850&currStreakLabel=A259FF&sideLabels=75C850&dates=FFFFFF&border_radius=10" width="70%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150" alt="readme stats"/>
+ <img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150" alt="readme stats"/>
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="150" alt="top langs"/>
 </div>
