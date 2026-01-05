@@ -69,9 +69,9 @@ I build things that actually work, not just "compile successfully."
 
 ### 📊 GitHub Stats
 <div align="center">
- <img src="https://github-readme-stats.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150" alt="readme stats"/>
+ <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150" alt="readme stats"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="150" alt="top langs"/>
+  <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="150" alt="top langs"/>
 </div>
 
 ---
