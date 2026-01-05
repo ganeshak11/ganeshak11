@@ -69,10 +69,29 @@ I build things that actually work, not just "compile successfully."
 
 ### 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="150"/>
-  <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="150"/>
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ganeshak11&theme=tokyonight" height="150"/>
+  <table border="0">
+    <tr>
+      <td valign="top">
+        <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="170" alt="Main Stats"/>
+      </td>
+      <td valign="top">
+        <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="170" alt="Top Languages"/>
+      </td>
+    </tr>
+  </table>
+
+  <table border="0">
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github-profile-trophy.vercel.app/?username=ganeshak11&theme=tokyonight&column=7&margin-w=15" alt="Trophies" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&theme=tokyonight&area=true" height="170" alt="Activity Graph"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
