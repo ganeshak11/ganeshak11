@@ -39,7 +39,7 @@ I build things that actually work, not just "compile successfully."
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **🚌 [MY(suru) BUS](https://github.com/ganeshak11/MY-suru-BUS)** | A cross-platform app for real-time bus tracking and route optimization in Mysore. | `React Native` `Supabase` `Leaflet Maps API` |
-| **🖥️ [The City Reporter](https://github.com/ganeshak11/city-reporter-app)** | Full-stack civic issue reporting system with an interactive map and admin panel. | `React` `Node.js` `Supabase` |
+|
 
 ---
 
