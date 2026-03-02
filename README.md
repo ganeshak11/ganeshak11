@@ -7,7 +7,7 @@
 
 <img src="https://imgs.search.brave.com/ZqOYgAC4tWj8DvF95XB0SrvCbW7LgkPPptCHbFOA2HQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvbWFuLXF1/aWNrLXN5c3RlbS1j/b2RpbmctdmdzZGEy/dDdkNXR1N285eC5n/aWY.gif" width="400"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-black?style=for-the-badge&logo=vercel)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Open-black?style=for-the-badge&logo=vercel)](#)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ganesh-angadi-b52043289)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:ganeshangadi13012006@gmail.com)
 
