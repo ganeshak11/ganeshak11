@@ -17,119 +17,81 @@
 
 ## 🚀 What I Actually Do
 
-I build real-time systems with reliability in mind.
+I focus on building real-time systems where reliability isn't an afterthought.
 
-- 🚌 **System Architecture:** Designed a 3-app bus tracking system with role-based access, geofencing logic, and offline queue sync.
-- 🔄 **CI/CD Thinking:** Understand build pipelines, environment isolation, deployment workflows, and rollback strategies.
-- 🐧 **Linux First:** Comfortable with permissions, users/groups, systemd, networking basics, logs, and break/fix debugging.
-- 🌍 **Realtime Apps:** GPS streaming, Supabase Realtime, database-driven logic enforcement.
-- 🧠 **State & Consistency:** Prefer SQL truth over frontend illusion.
+- 🚌 **System Architecture:** Designed a 3-app bus tracking ecosystem with role-based access, geofencing, and offline queue sync.
+- 🔄 **DevOps Mindset:** I care about build pipelines, environment isolation, and clean commit histories—not just "pushing to main."
+- 🐧 **Linux First:** Comfortable in the terminal. I manage permissions, systemd services, and break/fix debugging on Ubuntu/Kubuntu.
+- 🌍 **Real-time Logic:** Expert at GPS streaming, Supabase Realtime, and enforcing logic at the database level (RLS) rather than just the UI.
 
 ---
 
 ## 🛠 Tech Stack (Used With Intent)
 
-### 🧩 Frontend
-`React` `Next.js` `React Native (Expo)`  
-`TypeScript` `JavaScript` `Tailwind`
-
-### 🗄 Backend & Database
-`Supabase` `PostgreSQL` `Row-Level Security`  
-`Firebase (early projects)`
-
-### ⚙ DevOps & Systems
-`Linux (Ubuntu/Kubuntu)`  
-`Git (deep mental model)`  
-`GitHub Actions (CI/CD basics)`  
-`SSH` `Environment Isolation`  
-`Deployment: Vercel`
-
-### 🧪 Languages
-`C` `Python`
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Frontend** | `React`, `Next.js`, `React Native (Expo)`, `TypeScript`, `Tailwind CSS` |
+| **Backend & DB** | `Supabase`, `PostgreSQL`, `Row-Level Security (RLS)`, `Firebase` |
+| **Systems & DevOps** | `Linux (Ubuntu/Kubuntu)`, `Git`, `GitHub Actions`, `SSH`, `Vercel` |
+| **Languages** | `C`, `Python`, `JavaScript`, `TypeScript`, `Java`, `Shell`|
 
 ---
 
-## 📌 Featured Project
+## 📌 Featured Project: MY(suru) BUS
 
-### 🚌 MY(suru) BUS
-Real-time bus tracking platform with:
+**A production-grade real-time bus tracking platform.**
 
-- Admin Web Dashboard (Next.js)
-- Driver App (React Native)
-- Passenger App (React Native)
-- Live GPS streaming
-- Offline location queue with auto-sync
-- Geofence-based stop detection
-- Role-based DB-level security
+* **Admin Dashboard:** Next.js web interface for fleet management.
+* **Driver & Passenger Apps:** High-performance React Native mobile apps.
+* **Engine:** Live GPS streaming with an offline location queue for "dead zones."
+* **Logic:** Geofence-based stop detection and strict role-based DB security.
 
-**Stack:** React Native • Next.js • Supabase • PostgreSQL • Leaflet
-
-🔗 https://github.com/ganeshak11/MY-suru-BUS
+👉 [**View Repository**](https://github.com/ganeshak11/MY-suru-BUS)
 
 ---
 
-## 🔁 DevOps Mindset
+## 🧠 Speed Logic & Problem Solving
+*If debugging was an Olympic sport, I’d take silver. Gold goes to whoever wrote the bug.*
 
-I’m not interested in just “pushing to main.”
-
-I focus on:
-- Clean commit history
-- Branch isolation
-- Environment separation (.env strategy)
-- Reproducible builds
-- Deployment debugging (Node version mismatches, build output issues, runtime vs build errors)
-- Thinking in pipelines, not just projects
-
-Currently leveling up in:
-- Advanced Git workflows
-- CI automation
-- Infrastructure fundamentals
-- Observability & logging
-
----
-
-## 🧠 Speed Logic Stats
-
-| Puzzle | Personal Best |
-|--------|---------------|
-| Sudoku | 52s |
-| Rubik’s Cube | 48s |
-| 8-Puzzle | 3s ⚡ |
-
-Problem solving is not a hobby. It’s default mode.
+| Challenge | Personal Best | Status |
+| :--- | :--- | :--- |
+| **8-Puzzle** | **3s** | ⚡ Speed Demon |
+| **Rubik’s Cube** | **48s** | Sub-1 Minute |
+| **Sudoku** | **52s** | Logic-Driven |
 
 ---
 
 ## ⚽ Sports Mode
+> *"Virat’s aggression runs in my bloodstream."*
 
-- ⚽ Real Madrid loyalist (Sergio Ramos forever)
-- 🏎 Max Verstappen supporter
-- 🏏 Aggression-level Virat fan
-
-Competition mindset transfers well into debugging.
+* **Football:** Real Madrid loyalist. Sergio Ramos is the blueprint for defense (and debugging).
+* **F1:** Max Verstappen supporter 🏎️.
+* **Cricket:** High-intensity fan. Competition mindset transfers directly into solving hard blocks of code.
 
 ---
 
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="170"/>
-  <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="170"/>
+  <table border="0">
+    <tr>
+      <td valign="top">
+        <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="170"/>
+      </td>
+      <td valign="top">
+        <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="170"/>
+      </td>
+    </tr>
+  </table>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&theme=tokyonight&area=true" width="100%"/>
 </div>
 
 ---
 
 ## 🎯 Current Focus
+- 🛠 **Hardening:** Scaling MY(suru) BUS for real-world production.
+- 📦 **CI/CD:** Mastering infrastructure-as-code and automated workflows.
+- 🐧 **Linux:** Becoming dangerous in the kernel and networking basics.
+- 💼 **Open to:** Challenging full-stack roles or hardware/software bridge experiments.
 
-- 🛠 Hardening MY(suru) BUS into production-ready quality
-- 📦 Strengthening CI/CD foundations
-- 🐧 Becoming dangerous in Linux
-- 🧱 Learning infrastructure before chasing buzzwords
-
----
-
-## 📫 Connect
-
-Open an issue or reach out.
-
-Building in public. Improving daily.
+**Coding at 3 AM counts as personality at this point.** [Open an Issue](https://github.com/ganeshak11/ganeshak11/issues) • [Email Me](mailto:ganeshangadi13012006@gmail.com)
