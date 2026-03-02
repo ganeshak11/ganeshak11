@@ -1,12 +1,13 @@
 <div align="center">
 
-# 👋 Hey, I'm Ganesh
-**Full-Stack Developer | Mobile App Builder | Speed Cuber**
+# 👋 Hey, I'm Ganesh  
+**Full-Stack Developer | DevOps Learner | Real-Time Systems Builder**
 
-*"I solve puzzles faster than most people unlock their phones and pretend sleep isn’t real."*
+*"I don’t just build apps. I build systems that survive bad networks, bad users, and bad decisions."*
 
 <img src="https://imgs.search.brave.com/ZqOYgAC4tWj8DvF95XB0SrvCbW7LgkPPptCHbFOA2HQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvbWFuLXF1/aWNrLXN5c3RlbS1j/b2RpbmctdmdzZGEy/dDdkNXR1N285eC5n/aWY.gif" width="400"/>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-black?style=for-the-badge&logo=vercel)](#)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ganesh-angadi-b52043289)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:ganeshangadi13012006@gmail.com)
 
@@ -14,100 +15,121 @@
 
 ---
 
-### 🚀 What I Do
-I build things that actually work, not just "compile successfully."
-* **Full-stack & Mobile Dev:** Real-time systems, tracking apps, and Supabase integrations.
-* **The "Spicy" Stuff:** Maps, live location tracking, and complex state management.
-* **Sports Tech Nerd:** Football, F1, and Cricket analytics enthusiast.
+## 🚀 What I Actually Do
+
+I build real-time systems with reliability in mind.
+
+- 🚌 **System Architecture:** Designed a 3-app bus tracking system with role-based access, geofencing logic, and offline queue sync.
+- 🔄 **CI/CD Thinking:** Understand build pipelines, environment isolation, deployment workflows, and rollback strategies.
+- 🐧 **Linux First:** Comfortable with permissions, users/groups, systemd, networking basics, logs, and break/fix debugging.
+- 🌍 **Realtime Apps:** GPS streaming, Supabase Realtime, database-driven logic enforcement.
+- 🧠 **State & Consistency:** Prefer SQL truth over frontend illusion.
 
 ---
 
-### 🛠 Tech I Use Without Crying
-<p>
-  <!-- skillicons -->
-  <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,firebase,nodejs,git,github,c,python" />
-<img src="https://github.com/user-attachments/assets/42338c55-745e-474c-932a-207e20e2a9e1" width=48/>
+## 🛠 Tech Stack (Used With Intent)
 
-</p>
+### 🧩 Frontend
+`React` `Next.js` `React Native (Expo)`  
+`TypeScript` `JavaScript` `Tailwind`
 
+### 🗄 Backend & Database
+`Supabase` `PostgreSQL` `Row-Level Security`  
+`Firebase (early projects)`
 
----
+### ⚙ DevOps & Systems
+`Linux (Ubuntu/Kubuntu)`  
+`Git (deep mental model)`  
+`GitHub Actions (CI/CD basics)`  
+`SSH` `Environment Isolation`  
+`Deployment: Vercel`
 
-### 📌 Featured Work
-*Stuff I'm not embarrassed to show the world.*
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **🚌 [MY(suru) BUS](https://github.com/ganeshak11/MY-suru-BUS)** | A cross-platform app for real-time bus tracking and route optimization in Mysore. | `React Native` `Supabase` `Leaflet Maps API` |
-|
-
----
-
-### 🧠 Speed Stats (My "Flex" Zone)
-*If debugging was an Olympic sport, I’d take silver. Gold goes to whoever wrote the bug.*
-
-| Puzzle | Average Time | Personal Best |
-| :--- | :--- | :--- |
-| **Sudoku** | ~58-65s | 52s |
-| **Rubik’s Cube** | 65-80s | 48s |
-| **8-Puzzle** | 8–12s | **3s** ⚡ |
+### 🧪 Languages
+`C` `Python`
 
 ---
 
-### ⚽ The Sports Arc
-<div align="left">
-  
-> **"Virat’s aggression runs in my bloodstream."**
+## 📌 Featured Project
 
-* **Football:** Real Madrid till the servers shut down. (Sergio Ramos is forever).
-* **F1:** Max Verstappen fan 🏎️.
-* **Favorites:** Valverde & Asensio enjoyer.
+### 🚌 MY(suru) BUS
+Real-time bus tracking platform with:
 
-</div>
+- Admin Web Dashboard (Next.js)
+- Driver App (React Native)
+- Passenger App (React Native)
+- Live GPS streaming
+- Offline location queue with auto-sync
+- Geofence-based stop detection
+- Role-based DB-level security
+
+**Stack:** React Native • Next.js • Supabase • PostgreSQL • Leaflet
+
+🔗 https://github.com/ganeshak11/MY-suru-BUS
 
 ---
 
-### 📊 GitHub Stats
+## 🔁 DevOps Mindset
+
+I’m not interested in just “pushing to main.”
+
+I focus on:
+- Clean commit history
+- Branch isolation
+- Environment separation (.env strategy)
+- Reproducible builds
+- Deployment debugging (Node version mismatches, build output issues, runtime vs build errors)
+- Thinking in pipelines, not just projects
+
+Currently leveling up in:
+- Advanced Git workflows
+- CI automation
+- Infrastructure fundamentals
+- Observability & logging
+
+---
+
+## 🧠 Speed Logic Stats
+
+| Puzzle | Personal Best |
+|--------|---------------|
+| Sudoku | 52s |
+| Rubik’s Cube | 48s |
+| 8-Puzzle | 3s ⚡ |
+
+Problem solving is not a hobby. It’s default mode.
+
+---
+
+## ⚽ Sports Mode
+
+- ⚽ Real Madrid loyalist (Sergio Ramos forever)
+- 🏎 Max Verstappen supporter
+- 🏏 Aggression-level Virat fan
+
+Competition mindset transfers well into debugging.
+
+---
+
+## 📊 GitHub Activity
+
 <div align="center">
-  <table border="0">
-    <tr>
-      <td valign="top">
-        <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="170" alt="Main Stats"/>
-      </td>
-      <td valign="top">
-        <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="170" alt="Top Languages"/>
-      </td>
-    </tr>
-  </table>
-
-  <table border="0">
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-profile-trophy.vercel.app/?username=ganeshak11&theme=tokyonight&column=7&margin-w=15" alt="Trophies" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&theme=tokyonight&area=true" height="170" alt="Activity Graph"/>
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&theme=tokyonight&count_private=true" height="170"/>
+  <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&theme=tokyonight" height="170"/>
 </div>
 
 ---
 
-### 🎯 Current Status
-- 🔭 **Building:** My first production-ready app.
-- 🌱 **Learning:** The full pipeline (Build → Deploy → Panic → Fix).
-- 💼 **Freelancing:** Web design & hardware experiments.
+## 🎯 Current Focus
+
+- 🛠 Hardening MY(suru) BUS into production-ready quality
+- 📦 Strengthening CI/CD foundations
+- 🐧 Becoming dangerous in Linux
+- 🧱 Learning infrastructure before chasing buzzwords
 
 ---
 
-<div align="center">
+## 📫 Connect
 
-### 📫 Reach Me
-**Coding at 3 AM counts as personality at this point.**
+Open an issue or reach out.
 
-[Open an Issue](https://github.com/ganeshak11/ganeshak11/issues) • [Email Me](mailto:ganeshangadi13012006@gmail.com)
-
-</div>
+Building in public. Improving daily.
