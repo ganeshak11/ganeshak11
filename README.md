@@ -5,7 +5,7 @@
 
 *"I don’t just build apps. I build systems that survive bad networks, bad users, and bad decisions."*
 
-<img src="https://tenor.com/en-GB/view/devops-consulting-company-devops-outsourcing-company-cloud-consulting-company-devops-service-providers-devops-company-gif-13827876802619093936" width="400"/>
+<img src="https://imgs.search.brave.com/ZqOYgAC4tWj8DvF95XB0SrvCbW7LgkPPptCHbFOA2HQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvbWFuLXF1/aWNrLXN5c3RlbS1j/b2RpbmctdmdzZGEy/dDdkNXR1N285eC5n/aWY.gif" width="400"/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Take_a_look-black?style=for-the-badge&logo=vercel)](https://ganeshangadi.online/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ganesh-angadi-b52043289)
