@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00529F&height=250&section=header&text=Hello,%20I'm%20Ganesh!&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=D4AF37" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ffffff&height=250&section=header&text=Hello,%20I'm%20Ganesh!&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=D4AF37" width="100%"/>
 
 ### 👑 DevOps Engineer | System Thinker 👑
 
@@ -8,9 +8,9 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ganeshangadi.online-D4AF37?style=for-the-badge&logo=vercel&labelColor=00529F&logoColor=white)](https://ganeshangadi.online/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-D4AF37?style=for-the-badge&logo=linkedin&labelColor=00529F&logoColor=white)](https://linkedin.com/in/ganeshangadi1301)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D4AF37?style=for-the-badge&logo=gmail&labelColor=00529F&logoColor=white)](mailto:ganeshangadi13012006@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ganeshangadi.online-D4AF37?style=for-the-badge&logo=vercel&labelColor=ffffff&logoColor=00529F)](https://ganeshangadi.online/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-D4AF37?style=for-the-badge&logo=linkedin&labelColor=ffffff&logoColor=00529F)](https://linkedin.com/in/ganeshangadi1301)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-D4AF37?style=for-the-badge&logo=gmail&labelColor=ffffff&logoColor=00529F)](mailto:ganeshangadi13012006@gmail.com)
 
 </div>
 
@@ -32,28 +32,28 @@ I focus on building real-time systems where reliability isn't an afterthought. *
 <div align="center">
   
 **Systems, DevOps & Cloud**<br>
-![Linux](https://img.shields.io/badge/Linux-D4AF37?style=for-the-badge&logo=linux&labelColor=00529F&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-D4AF37?style=for-the-badge&logo=ubuntu&labelColor=00529F&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-D4AF37?style=for-the-badge&logo=docker&labelColor=00529F&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-D4AF37?style=for-the-badge&logo=amazon-aws&labelColor=00529F&logoColor=white)
-![Git](https://img.shields.io/badge/Git-D4AF37?style=for-the-badge&logo=git&labelColor=00529F&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-D4AF37?style=for-the-badge&logo=githubactions&labelColor=00529F&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-D4AF37?style=for-the-badge&logo=linux&labelColor=ffffff&logoColor=00529F)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-D4AF37?style=for-the-badge&logo=ubuntu&labelColor=ffffff&logoColor=00529F)
+![Docker](https://img.shields.io/badge/Docker-D4AF37?style=for-the-badge&logo=docker&labelColor=ffffff&logoColor=00529F)
+![AWS](https://img.shields.io/badge/AWS-D4AF37?style=for-the-badge&logo=amazon-aws&labelColor=ffffff&logoColor=00529F)
+![Git](https://img.shields.io/badge/Git-D4AF37?style=for-the-badge&logo=git&labelColor=ffffff&logoColor=00529F)
+![GitHub Actions](https://img.shields.io/badge/Actions-D4AF37?style=for-the-badge&logo=githubactions&labelColor=ffffff&logoColor=00529F)
 
 **Backend & Database**<br>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-D4AF37?style=for-the-badge&logo=postgresql&labelColor=00529F&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-D4AF37?style=for-the-badge&logo=supabase&labelColor=00529F&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-D4AF37?style=for-the-badge&logo=postgresql&labelColor=ffffff&logoColor=00529F)
+![Supabase](https://img.shields.io/badge/Supabase-D4AF37?style=for-the-badge&logo=supabase&labelColor=ffffff&logoColor=00529F)
 
 **Languages**<br>
-![Python](https://img.shields.io/badge/Python-D4AF37?style=for-the-badge&logo=python&labelColor=00529F&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-D4AF37?style=for-the-badge&logo=typescript&labelColor=00529F&logoColor=white)
-![C](https://img.shields.io/badge/C-D4AF37?style=for-the-badge&logo=c&labelColor=00529F&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell-D4AF37?style=for-the-badge&logo=gnu-bash&labelColor=00529F&logoColor=white)
+![Python](https://img.shields.io/badge/Python-D4AF37?style=for-the-badge&logo=python&labelColor=ffffff&logoColor=00529F)
+![TypeScript](https://img.shields.io/badge/TypeScript-D4AF37?style=for-the-badge&logo=typescript&labelColor=ffffff&logoColor=00529F)
+![C](https://img.shields.io/badge/C-D4AF37?style=for-the-badge&logo=c&labelColor=ffffff&logoColor=00529F)
+![Shell Script](https://img.shields.io/badge/Shell-D4AF37?style=for-the-badge&logo=gnu-bash&labelColor=ffffff&logoColor=00529F)
 
 **Frontend**<br>
-![Next JS](https://img.shields.io/badge/Next.js-D4AF37?style=for-the-badge&logo=next.js&labelColor=00529F&logoColor=white)
-![React](https://img.shields.io/badge/React-D4AF37?style=for-the-badge&logo=react&labelColor=00529F&logoColor=white)
-![React Native](https://img.shields.io/badge/Native-D4AF37?style=for-the-badge&logo=react&labelColor=00529F&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-D4AF37?style=for-the-badge&logo=tailwind-css&labelColor=00529F&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next.js-D4AF37?style=for-the-badge&logo=next.js&labelColor=ffffff&logoColor=00529F)
+![React](https://img.shields.io/badge/React-D4AF37?style=for-the-badge&logo=react&labelColor=ffffff&logoColor=00529F)
+![React Native](https://img.shields.io/badge/Native-D4AF37?style=for-the-badge&logo=react&labelColor=ffffff&logoColor=00529F)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-D4AF37?style=for-the-badge&logo=tailwind-css&labelColor=ffffff&logoColor=00529F)
 
 </div>
 
@@ -109,10 +109,10 @@ Infrastructure and deployment track for a real-time intrusion detection platform
 ## 🔵 `$ cat github_metrics.log`
 
 <div align="center">
-  <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=00529F&title_color=D4AF37&text_color=FFFFFF&icon_color=D4AF37&border_color=D4AF37&hide_border=true&count_private=true" height="170" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=00529F&title_color=D4AF37&text_color=FFFFFF&hide_border=true" height="170" alt="Top Languages" />
+  <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=ffffff&title_color=D4AF37&text_color=444444&icon_color=00529F&border_color=D4AF37&count_private=true" height="170" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=ffffff&title_color=D4AF37&text_color=444444" height="170" alt="Top Languages" />
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&bg_color=00529F&color=D4AF37&line=FFFFFF&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&bg_color=ffffff&color=D4AF37&line=D4AF37&point=00529F&area=true" width="100%" alt="Activity Graph" />
 </div>
 
 ---
@@ -130,6 +130,6 @@ Infrastructure and deployment track for a real-time intrusion detection platform
 
 [Open an Issue](https://github.com/ganeshak11/ganeshak11/issues) • [Email Me](mailto:ganeshangadi13012006@gmail.com)
 
-![](https://komarev.com/ghpvc/?username=ganeshak11&color=00529F&style=flat-square&label=PROFILE+VIEWS&labelColor=D4AF37)
+![](https://komarev.com/ghpvc/?username=ganeshak11&color=ffffff&style=flat-square&label=PROFILE+VIEWS&labelColor=D4AF37)
 
 </div>
