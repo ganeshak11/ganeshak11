@@ -185,7 +185,7 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
 ### 🏎️ Systems Thinking
 
 - 📖 **Why Formula 1 Cars Are Just Math Equations Doing 300 km/h**  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/maths-behind-f1)*
+  🔗 *[Click to Read](https://ganeshangadi.online/blog/maths-behind-F1)*
 
 
 > *I believe writing is part of engineering. If you can't explain why a system works, you probably don't understand it well enough.*
