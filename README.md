@@ -190,7 +190,7 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
   </tr>
   <tr style="border: none;">
     <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution Graph"/>
+      <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph"/>
     </td>
   </tr>
   <tr style="border: none;">
