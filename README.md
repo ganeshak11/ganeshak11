@@ -190,7 +190,7 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
   </tr>
   <tr style="border: none;">
     <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&bg_color=0D1117&color=58A6FF&line=58A6FF&point=E3B341&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
+      <img src="profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution Graph"/>
     </td>
   </tr>
 </table>
@@ -217,6 +217,15 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
 > **Infrastructure isn't magic.**
 >
 > *It's the accumulation of thousands of engineering decisions and their trade-offs.*
+
+<br/>
+
+<div align="center">
+  <!-- Replace YOUR_DISCORD_ID with your actual Discord User ID (instructions at lanyard.dev) -->
+  <a href="https://discord.com/users/YOUR_DISCORD_ID">
+    <img src="https://lanyard.vercel.app/api/YOUR_DISCORD_ID?theme=dark&bg=0D1117&borderRadius=8px" alt="Discord Status" />
+  </a>
+</div>
 
 <br/>
 

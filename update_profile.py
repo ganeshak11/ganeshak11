@@ -165,6 +165,11 @@ def generate_svg(uptime, stats):
     <filter id="shadow" x="0" y="0" width="960" height="540" filterUnits="userSpaceOnUse">
       <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
     </filter>
+    <clipPath id="type-clip">
+      <rect x="605" y="482" width="0" height="24">
+        <animate attributeName="width" values="0;7.2;14.4;21.6;28.8;36;43.2;50.4;57.6;57.6;57.6" dur="4s" repeatCount="indefinite" keyTimes="0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.8;1" />
+      </rect>
+    </clipPath>
   </defs>
 
   <style>
@@ -343,7 +348,12 @@ def generate_svg(uptime, stats):
 
     <!-- Pinned Terminal Prompt (Raised to y=500 for better margin) -->
     <text x="480" y="500">
-      <tspan class="prompt-user">ganesh</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-host">ubuntu</tspan><tspan class="val">:~$ </tspan><tspan class="cursor">█</tspan>
+      <tspan class="prompt-user">ganesh</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-host">ubuntu</tspan><tspan class="val">:~$ </tspan>
+    </text>
+    <text x="605" y="500" class="val" clip-path="url(#type-clip)">neofetch</text>
+    <text x="605" y="500" class="cursor">
+      <animate attributeName="x" values="605;612.2;619.4;626.6;633.8;641;648.2;655.4;662.6;662.6;662.6" dur="4s" repeatCount="indefinite" keyTimes="0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.8;1" />
+      █
     </text>
   </g>
 </svg>
