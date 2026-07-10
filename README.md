@@ -223,7 +223,7 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
 <div align="center">
   <!-- Replace YOUR_DISCORD_ID with your actual Discord User ID (instructions at lanyard.dev) -->
   <a href="https://discord.com/users/1376903971725250621">
-    <img src="https://lanyard.vercel.app/api/1376903971725250621?theme=dark&bg=0D1117&borderRadius=8px" alt="Discord Status" />
+    <img src="https://lanyard.cnrad.dev/api/1376903971725250621?theme=dark&bg=0D1117&borderRadius=8px" alt="Discord Status" />
   </a>
 </div>
 
