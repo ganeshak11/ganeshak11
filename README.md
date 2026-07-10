@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=ffffff&height=250&section=header&text=Hello,%20I'm%20Ganesh!&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=D4AF37" width="100%"/>
-
-## ⚙️ DevOps • Platform Engineering • Systems Thinking
-
-> *"I enjoy building systems that are observable, reliable, and resilient. My focus is on automation, deployment pipelines, and understanding why systems fail before they do."*
+<img src="terminal.svg" alt="Terminal" width="100%" />
 
 <br/>
 

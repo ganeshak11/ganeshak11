@@ -1,0 +1,197 @@
+<svg width="100%" height="100%" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Subtle window drop shadow filter -->
+  <defs>
+    <filter id="shadow" x="0" y="0" width="960" height="540" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .terminal {
+      font-family: "Fira Code", "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 12px;
+      fill: #C9D1D9;
+    }
+    .title-bar {
+      fill: #161B22;
+    }
+    .body {
+      fill: #0D1117;
+    }
+    .border {
+      stroke: #30363D;
+      stroke-width: 1.5;
+    }
+    .red-btn { fill: #FF5F56; }
+    .yellow-btn { fill: #FFBD2E; }
+    .green-btn { fill: #27C93F; }
+    
+    .title-text {
+      fill: #8B949E;
+      font-size: 12px;
+      text-anchor: middle;
+      font-weight: 500;
+    }
+    
+    .ascii-text {
+      fill: #E3B341;
+      font-family: "JetBrains Mono","Cascadia Code","Fira Code","Consolas", monospace;
+      font-weight: bold;
+      font-size: 11.5px;
+      white-space: pre;
+      letter-spacing: 0;
+    }
+    
+    .status-panel-bg {
+      fill: #161B22;
+      stroke: #30363D;
+      stroke-width: 1.5;
+    }
+    
+    .prompt-user {
+      fill: #E3B341;
+      font-weight: bold;
+    }
+    .prompt-at {
+      fill: #8B949E;
+    }
+    .prompt-host {
+      fill: #58A6FF;
+      font-weight: bold;
+    }
+    
+    .key {
+      fill: #58A6FF;
+      font-weight: bold;
+    }
+    .val {
+      fill: #C9D1D9;
+    }
+    .separator {
+      fill: #30363D;
+      stroke-width: 1.5;
+    }
+    .heading {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .green-text {
+      fill: #3FB950;
+      font-weight: bold;
+    }
+    .yellow-text {
+      fill: #E3B341;
+      font-weight: bold;
+    }
+    .blue-text {
+      fill: #58A6FF;
+      font-weight: bold;
+    }
+    .dim-text {
+      fill: #8B949E;
+    }
+    
+    .cursor {
+      fill: #58A6FF;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      from, to { fill: transparent }
+      50% { fill: #58A6FF }
+    }
+  </style>
+
+  <g filter="url(#shadow)">
+    <!-- Terminal Window Background -->
+    <rect x="8" y="8" width="944" height="524" rx="8" class="body border" />
+    
+    <!-- Title Bar -->
+    <path d="M 8 16 A 8 8 0 0 1 16 8 L 944 8 A 8 8 0 0 1 952 16 L 952 40 L 8 40 Z" fill="#161B22" />
+    <line x1="8" y1="40" x2="952" y2="40" stroke="#30363D" stroke-width="1.5" />
+    
+    <!-- Window Controls -->
+    <circle cx="28" cy="24" r="6" class="red-btn" />
+    <circle cx="48" cy="24" r="6" class="yellow-btn" />
+    <circle cx="68" cy="24" r="6" class="green-btn" />
+    
+    <!-- Title Bar Text -->
+    <text x="480" y="28" class="title-text">ganesh@ubuntu: ~</text>
+  </g>
+
+  <!-- Left Column: Logo and Status Panels -->
+  <g class="terminal">
+    <!-- ASCII Art Logo (Moved up to y=75) -->
+    <text x="48" y="75" class="ascii-text" xml:space="preserve">
+      <tspan x="48" dy="15">  ██████╗  █████╗ ███╗   ██╗███████╗███████╗██╗  ██╗</tspan>
+      <tspan x="48" dy="15"> ██╔════╝ ██╔══██╗████╗  ██║██╔════╝██╔════╝██║  ██║</tspan>
+      <tspan x="48" dy="15"> ██║  ███╗███████║██╔██╗ ██║█████╗  ███████╗███████║</tspan>
+      <tspan x="48" dy="15"> ██║   ██║██╔══██║██║╚██╗██║██╔══╝  ╚════██║██╔══██║</tspan>
+      <tspan x="48" dy="15"> ╚██████╔╝██║  ██║██║ ╚████║███████╗███████║██║  ██║</tspan>
+      <tspan x="48" dy="15">  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝  ╚═╝</tspan>
+    </text>
+
+    <!-- Status Panel Box (Moved up to y=218 and height adjusted) -->
+    <rect x="78" y="218" width="300" height="136" rx="6" class="status-panel-bg" />
+    
+    <!-- Status Panel Text inside the Box -->
+    <text x="98" y="248" class="ascii-text">
+      <tspan x="98" dy="0"><tspan class="key">Status    </tspan><tspan class="dim-text">:</tspan> <tspan class="green-text">Active</tspan></tspan>
+      <tspan x="98" dy="20"><tspan class="key">Memory    </tspan><tspan class="dim-text">:</tspan> <tspan class="val">3.9 / 5.7 GiB</tspan></tspan>
+      <tspan x="98" dy="20"><tspan class="key">Disk      </tspan><tspan class="dim-text">:</tspan> <tspan class="val">176 / 468 GiB</tspan></tspan>
+      <tspan x="98" dy="20"><tspan class="key">Docker    </tspan><tspan class="dim-text">:</tspan> <tspan class="val">0 Run | 13 Stop</tspan></tspan>
+      <tspan x="98" dy="20"><tspan class="key">CPU Load  </tspan><tspan class="dim-text">:</tspan> <tspan class="val">2.88</tspan></tspan>
+    </text>
+
+    <!-- DevOps Telemetry Box (Fills empty space in lower-left) -->
+    <rect x="78" y="368" width="300" height="92" rx="6" class="status-panel-bg" />
+    <text x="98" y="398" class="ascii-text">
+      <tspan x="98" dy="0"><tspan class="key">Pipeline   </tspan><tspan class="dim-text">:</tspan> <tspan class="green-text">Healthy</tspan></tspan>
+      <tspan x="98" dy="20"><tspan class="key">Containers </tspan><tspan class="dim-text">:</tspan> <tspan class="green-text">Running</tspan></tspan>
+      <tspan x="98" dy="20"><tspan class="key">Infra State</tspan><tspan class="dim-text">:</tspan> <tspan class="blue-text">Synced</tspan></tspan>
+    </text>
+  </g>
+
+  <!-- Right Column: Specs and Stats -->
+  <g class="terminal">
+    <!-- User/Host Prompt (Lowered to y=110) -->
+    <text x="480" y="110">
+      <tspan class="prompt-user">ganesh</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-host">ubuntu</tspan>
+    </text>
+    
+    <!-- Solid Grid Separator Line (Lowered to y=126) -->
+    <line x1="480" y1="126" x2="912" y2="126" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Specs Section (Lowered start to y=136) -->
+    <text x="480" y="136">
+      <tspan x="480" dy="18" class="key">OS</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Ubuntu 24.04.4 LTS</tspan>
+<tspan x="480" dy="18" class="key">Host</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">ganeshak11-Vostro-15-3515</tspan>
+<tspan x="480" dy="18" class="key">Uptime</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">20y 5m 27d 16h 51m 18s</tspan>
+<tspan x="480" dy="18" class="key">Kernel</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">6.8.0-134-generic</tspan>
+<tspan x="480" dy="18" class="key">Shell</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">/bin/bash</tspan>
+<tspan x="480" dy="18" class="key">IDE</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">VS Code, Vim</tspan>
+<tspan x="480" dy="18" class="key">Languages</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">TypeScript, Python, Shell, C</tspan>
+<tspan x="480" dy="24" class="key">Building</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Fortis Ecosystem (Fortis-CI, Observe)</tspan>
+<tspan x="480" dy="18" class="key">Telemetry</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">S1 (8-Puzzle: 3s) | S2 (Rubik: 48s) | S3</tspan>
+<tspan x="590" dy="18" class="val">(Sudoku: 52s)</tspan>
+    </text>
+
+    <!-- Solid Grid Separator Line (Lowered to y=346) -->
+    <line x1="480" y1="346" x2="912" y2="346" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Dynamic Metrics Section Header (Lowered to y=374) -->
+    <text x="480" y="374" class="heading green-text">GitHub Dynamic Metrics</text>
+
+    <!-- Metrics Table Rows (Tab-stop layout with dy increased by 2px) -->
+    <text x="480" y="386">
+      <tspan x="480" dy="24"><tspan class="key">Commits</tspan><tspan x="620" class="val">337</tspan></tspan>
+      <tspan x="480" dy="22"><tspan class="key">Stars</tspan><tspan x="620" class="val">12</tspan></tspan>
+      <tspan x="480" dy="22"><tspan class="key">Repositories</tspan><tspan x="620" class="val">16</tspan></tspan>
+      <tspan x="480" dy="22"><tspan class="key">Followers</tspan><tspan x="620" class="val">12</tspan></tspan>
+    </text>
+
+    <!-- Pinned Terminal Prompt (Raised to y=500 for better margin) -->
+    <text x="480" y="500">
+      <tspan class="prompt-user">ganesh</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-host">ubuntu</tspan><tspan class="val">:~$ </tspan><tspan class="cursor">█</tspan>
+    </text>
+  </g>
+</svg>
