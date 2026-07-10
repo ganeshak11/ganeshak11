@@ -193,6 +193,11 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
       <img src="profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution Graph"/>
     </td>
   </tr>
+  <tr style="border: none;">
+    <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
+      <img src="https://github-readme-stats-rho-six-90.vercel.app/api/wakatime?username=ganeshak11&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=E3B341&border_color=30363D" width="100%" alt="WakaTime Stats"/>
+    </td>
+  </tr>
 </table>
 </div>
 
