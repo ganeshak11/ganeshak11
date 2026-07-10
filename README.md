@@ -47,40 +47,16 @@ I enjoy building software that continues working when things go wrong. My intere
 <div align="center">
 
 ### ⚙️ Systems • DevOps • Cloud
-
-![Linux](https://img.shields.io/badge/Linux-D4AF37?style=for-the-badge&logo=linux&labelColor=ffffff&logoColor=00529F)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-D4AF37?style=for-the-badge&logo=ubuntu&labelColor=ffffff&logoColor=00529F)
-![Docker](https://img.shields.io/badge/Docker-D4AF37?style=for-the-badge&logo=docker&labelColor=ffffff&logoColor=00529F)
-![Terraform](https://img.shields.io/badge/Terraform-D4AF37?style=for-the-badge&logo=terraform&labelColor=ffffff&logoColor=00529F)
-![AWS](https://img.shields.io/badge/AWS-D4AF37?style=for-the-badge&logo=amazonaws&labelColor=ffffff&logoColor=00529F)
-![Git](https://img.shields.io/badge/Git-D4AF37?style=for-the-badge&logo=git&labelColor=ffffff&logoColor=00529F)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-D4AF37?style=for-the-badge&logo=githubactions&labelColor=ffffff&logoColor=00529F)
-
+[![DevOps](https://skillicons.dev/icons?i=linux,ubuntu,docker,terraform,aws,git,githubactions)](https://skillicons.dev)
 
 ### 🏗️ Backend • Databases
-
-![Node.js](https://img.shields.io/badge/Node.js-D4AF37?style=for-the-badge&logo=node.js&labelColor=ffffff&logoColor=00529F)
-![Express](https://img.shields.io/badge/Express-D4AF37?style=for-the-badge&logo=express&labelColor=ffffff&logoColor=00529F)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-D4AF37?style=for-the-badge&logo=postgresql&labelColor=ffffff&logoColor=00529F)
-![Supabase](https://img.shields.io/badge/Supabase-D4AF37?style=for-the-badge&logo=supabase&labelColor=ffffff&logoColor=00529F)
-![Neo4j](https://img.shields.io/badge/Neo4j-D4AF37?style=for-the-badge&logo=neo4j&labelColor=ffffff&logoColor=00529F)
-![Redis](https://img.shields.io/badge/Redis-D4AF37?style=for-the-badge&logo=redis&labelColor=ffffff&logoColor=00529F)
-
+[![Backend](https://skillicons.dev/icons?i=nodejs,express,postgres,supabase,redis)](https://skillicons.dev)
 
 ### 💻 Languages
-
-![TypeScript](https://img.shields.io/badge/TypeScript-D4AF37?style=for-the-badge&logo=typescript&labelColor=ffffff&logoColor=00529F)
-![Python](https://img.shields.io/badge/Python-D4AF37?style=for-the-badge&logo=python&labelColor=ffffff&logoColor=00529F)
-![C](https://img.shields.io/badge/C-D4AF37?style=for-the-badge&logo=c&labelColor=ffffff&logoColor=00529F)
-![Shell](https://img.shields.io/badge/Shell-D4AF37?style=for-the-badge&logo=gnubash&labelColor=ffffff&logoColor=00529F)
-
+[![Languages](https://skillicons.dev/icons?i=ts,py,c,bash)](https://skillicons.dev)
 
 ### 🖥️ Frontend
-
-![Next.js](https://img.shields.io/badge/Next.js-D4AF37?style=for-the-badge&logo=nextdotjs&labelColor=ffffff&logoColor=00529F)
-![React](https://img.shields.io/badge/React-D4AF37?style=for-the-badge&logo=react&labelColor=ffffff&logoColor=00529F)
-![React Native](https://img.shields.io/badge/React%20Native-D4AF37?style=for-the-badge&logo=react&labelColor=ffffff&logoColor=00529F)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-D4AF37?style=for-the-badge&logo=tailwindcss&labelColor=ffffff&logoColor=00529F)
+[![Frontend](https://skillicons.dev/icons?i=nextjs,react,tailwind)](https://skillicons.dev)
 
 </div>
 
@@ -203,15 +179,21 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
 ## 🔵 `$ cat github_metrics.log`
 
 <div align="center">
-
-<img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=ffffff&title_color=D4AF37&text_color=444444&icon_color=00529F&border_color=D4AF37&count_private=true" height="170" alt="GitHub Stats"/>
-
-<img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=ffffff&title_color=D4AF37&text_color=444444&border_color=D4AF37" height="170" alt="Top Languages"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&bg_color=ffffff&color=D4AF37&line=D4AF37&point=00529F&area=true" width="100%" alt="Activity Graph"/>
-
+<table align="center" width="100%" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 5px; background: transparent;">
+      <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=E3B341&border_color=30363D&count_private=true" height="195" alt="GitHub Stats"/>
+    </td>
+    <td align="center" style="border: none; padding: 5px; background: transparent;">
+      <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_color=30363D" height="195" alt="Top Languages"/>
+    </td>
+  </tr>
+  <tr style="border: none;">
+    <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshak11&bg_color=0D1117&color=58A6FF&line=58A6FF&point=E3B341&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
+    </td>
+  </tr>
+</table>
 </div>
 
 ---
