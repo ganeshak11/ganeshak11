@@ -1,3 +1,20 @@
+# Ganesh Angadi
+
+DevOps Engineer | Backend Engineer | Platform Engineering
+
+Building open-source infrastructure projects including Fortis-CI, FortisObserve and Fortis-Tools.
+
+🌐 Website
+https://ganeshangadi.online
+
+🐙 GitHub Profile
+https://github.com/ganeshak11
+
+📖 Blog
+https://ganeshangadi.online/blog
+
+---
+
 <div align="center">
 
 <img src="terminal.svg" alt="Terminal" width="100%" />
