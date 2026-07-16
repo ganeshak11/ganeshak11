@@ -170,7 +170,7 @@
     <text x="480" y="136">
       <tspan x="480" dy="18" class="key">OS</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Ubuntu 24.04.4 LTS</tspan>
 <tspan x="480" dy="18" class="key">Host</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">ganeshak11-Vostro-15-3515</tspan>
-<tspan x="480" dy="18" class="key">Uptime</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">20y 6m 3d 13h 0m 21s</tspan>
+<tspan x="480" dy="18" class="key">Uptime</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">20y 6m 3d 13h 22m 13s</tspan>
 <tspan x="480" dy="18" class="key">Kernel</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">6.8.0-134-generic</tspan>
 <tspan x="480" dy="18" class="key">Shell</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">/bin/bash</tspan>
 <tspan x="480" dy="18" class="key">IDE</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">VS Code, Vim</tspan>
@@ -188,7 +188,7 @@
 
     <!-- Metrics Table Rows (Tab-stop layout with dy increased by 2px) -->
     <text x="480" y="386">
-      <tspan x="480" dy="24"><tspan class="key">Commits</tspan><tspan x="620" class="val">381</tspan></tspan>
+      <tspan x="480" dy="24"><tspan class="key">Commits</tspan><tspan x="620" class="val">390</tspan></tspan>
       <tspan x="480" dy="22"><tspan class="key">Stars</tspan><tspan x="620" class="val">11</tspan></tspan>
       <tspan x="480" dy="22"><tspan class="key">Repositories</tspan><tspan x="620" class="val">15</tspan></tspan>
       <tspan x="480" dy="22"><tspan class="key">Followers</tspan><tspan x="620" class="val">12</tspan></tspan>
