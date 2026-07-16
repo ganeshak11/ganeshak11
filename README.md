@@ -1,8 +1,8 @@
-# Ganesh Angadi
+# Ganesh Angadi — DevOps & Platform Engineer
 
-DevOps Engineer | Backend Engineer | Platform Engineering
+**DevOps Engineer • Backend Engineer • Platform Engineering**
 
-Building open-source infrastructure projects including Fortis-CI, FortisObserve and Fortis-Tools.
+I design and build reliable, observable software infrastructures. I am the creator of [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI), an open-source graph-native deployment observability platform, and maintainer of the Fortis-Tools ecosystem. Passionate about AWS, Kubernetes, Terraform, and CI/CD automation.
 
 🌐 Website
 https://ganeshangadi.online
@@ -17,7 +17,7 @@ https://ganeshangadi.online/blog
 
 <div align="center">
 
-<img src="terminal.svg" alt="Terminal" width="100%" />
+<img src="terminal.svg" alt="Ganesh Angadi - DevOps Engineer and Platform Builder" width="100%" />
 
 <br/>
 
