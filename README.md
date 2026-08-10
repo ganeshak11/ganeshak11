@@ -13,6 +13,14 @@ https://github.com/ganeshak11
 📖 Blog
 https://ganeshangadi.online/blog
 
+Creator and maintainer of :
+</br>
+[Fortis-Ecosystem](https://github.com/Fortis-Ecosystem) : Cross-device tools and services that make Android and Linux work as a single platform.
+</br>
+[Fortis-CI](https://github.com/Fortis-CI) : Graph-native deployment observability with automated rollback and root-cause analysis for CI/CD pipelines.
+</br>
+[Fortis-Tools](https://github.com/Fortis-Tools) : A collection of developer-focused utilities built to simplify operations, monitoring, and infrastructure management.
+
 ---
 
 <div align="center">
@@ -208,11 +216,6 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
   <tr style="border: none;">
     <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
       <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph"/>
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="https://github-readme-stats-rho-six-90.vercel.app/api/wakatime?username=ganeshak11&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=E3B341&border_color=30363D" width="100%" alt="WakaTime Stats"/>
     </td>
   </tr>
 </table>
