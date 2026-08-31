@@ -170,7 +170,7 @@
     <text x="480" y="136">
       <tspan x="480" dy="18" class="key">OS</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Ubuntu 24.04.4 LTS</tspan>
 <tspan x="480" dy="18" class="key">Host</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">ganeshak11-Vostro-15-3515</tspan>
-<tspan x="480" dy="18" class="key">Uptime</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">20y 7m 18d 12h 11m 25s</tspan>
+<tspan x="480" dy="18" class="key">Uptime</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">20y 7m 18d 22h 11m 59s</tspan>
 <tspan x="480" dy="18" class="key">Kernel</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">6.8.0-134-generic</tspan>
 <tspan x="480" dy="18" class="key">Shell</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">/bin/bash</tspan>
 <tspan x="480" dy="18" class="key">IDE</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">VS Code, Vim</tspan>
