@@ -106,7 +106,7 @@ I enjoy building software that continues working when things go wrong. My work l
 - 🔐 **Zero-Trust Identity:** 3-of-5 Shamir's Secret Sharing (SSS) for master cryptographic keys with mTLS and XChaCha20-Poly1305 AEAD.
 - 🛠️ **Stack:** Go, Linux FUSE, Tailscale / WireGuard, SQLite (WAL), Android SAF, BLAKE3.
 
-👉 **Read Architecture Deep Dive:** [Part 1: The Question That Ruined My Sleep](https://ganeshangadi.online/blog/fortis-pseudo-os) • [Part 2: Designing the Pseudo-OS](https://ganeshangadi.online/blog/fortis-pseudo-os-part-2)
+👉 **Read Architecture Deep Dive:** [Part 1: The Question That Ruined My Sleep](https://ganeshangadi.online/blog/fortis-pseudo-os)
 
 
 ### 🧠 [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI)
