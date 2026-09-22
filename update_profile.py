@@ -119,13 +119,13 @@ def generate_svg(uptime, stats):
 
     # Static definitions for information fields (matching local Ubuntu system)
     specs = [
-        ("OS", "Ubuntu 24.04.4 LTS"),
+        ("OS", "Ubuntu 26.04.1 LTS"),
         ("Host", "ganeshak11-Vostro-15-3515"),
         ("Uptime", uptime_str),
-        ("Kernel", "6.8.0-134-generic"),
+        ("Kernel", "7.0.0-31-generic"),
         ("Shell", "/bin/bash"),
         ("IDE", "VS Code, Vim"),
-        ("Languages", "TypeScript, Python, Shell, C"),
+        ("Languages", "Go, TypeScript, Python, Shell, C"),
     ]
 
     # Generate specs rows with alignment using absolute coordinates (flat sibling tspans)
@@ -138,7 +138,7 @@ def generate_svg(uptime, stats):
         )
 
     # Wrap and render long building text
-    building_lines = wrap_text("Fortis Ecosystem (Fortis-CI, Observe)", 42)
+    building_lines = wrap_text("Fortis Pseudo-OS (CAS, VFS, Mesh)", 42)
     spec_rows.append(
         f'<tspan x="480" dy="24" class="key">Building</tspan>'
         f'<tspan x="570" class="separator">:</tspan>'
@@ -370,7 +370,7 @@ def main():
     
     svg = generate_svg(uptime, stats)
     
-    output_path = "terminal.svg"
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "terminal.svg")
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"Generated {output_path} successfully.")

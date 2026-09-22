@@ -1,8 +1,8 @@
-# Ganesh Angadi — DevOps & Platform Engineer
+# Ganesh Angadi — Systems, DevOps & Distributed Platforms
 
-**DevOps Engineer • Backend Engineer • Platform Engineering**
+**Systems Engineer • Distributed Systems • Platform & DevOps**
 
-I design and build reliable, observable software infrastructures. I am the creator of [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI), an open-source graph-native deployment observability platform, and maintainer of the Fortis-Tools ecosystem. Passionate about AWS, Kubernetes, Terraform, and CI/CD automation.
+I design and build distributed systems, virtual filesystems, and reliable, observable software infrastructures. I am the architect of the [Fortis Ecosystem](https://github.com/Fortis-Ecosystem)—a sovereign cross-device pseudo-OS unifying Linux and mobile terminals into one personal system—and creator of [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI), an open-source graph-native deployment observability platform. Passionate about distributed storage, Linux kernel/VFS, Tailscale mesh networks, and cloud infrastructure.
 
 🌐 Website
 https://ganeshangadi.online
@@ -10,12 +10,12 @@ https://ganeshangadi.online
 🐙 GitHub Profile
 https://github.com/ganeshak11
 
-📖 Blog
+📖 Engineering Blog
 https://ganeshangadi.online/blog
 
 Creator and maintainer of :
 </br>
-[Fortis-Ecosystem](https://github.com/Fortis-Ecosystem) : Cross-device tools and services that make Android and Linux work as a single platform.
+[Fortis-Ecosystem](https://github.com/Fortis-Ecosystem) : Sovereign cross-device pseudo-OS, demand-paged VFS, and distributed tooling unifying Linux and Android.
 </br>
 [Fortis-CI](https://github.com/Fortis-CI) : Graph-native deployment observability with automated rollback and root-cause analysis for CI/CD pipelines.
 </br>
@@ -25,7 +25,7 @@ Creator and maintainer of :
 
 <div align="center">
 
-<img src="terminal.svg" alt="Ganesh Angadi - DevOps Engineer and Platform Builder" width="100%" />
+<img src="terminal.svg" alt="Ganesh Angadi - Systems & DevOps Engineer" width="100%" />
 
 <br/>
 
@@ -39,27 +39,31 @@ Creator and maintainer of :
 
 > ### 🚧 Currently Building
 >
-> **Fortis Ecosystem**
+> **Fortis Ecosystem & Distributed Systems**
 >
-> • 🧠 Fortis-CI → Deployment Observability Platform
+> • 🌐 Fortis Pseudo-OS → Demand-paged FUSE VFS, Content-Addressable Storage (BLAKE3), and Zero-Trust Identity over Tailscale
 >
-> • 🛠️ Fortis-Tools → Open-source Developer Tooling
+> • 🧠 Fortis-CI → Graph-Native Deployment Observability Platform
 >
-> • 📊 FortisObserve → Privacy-first Web Analytics
+> • 🛠️ Fortis-Tools → Open-source Developer Tooling & Automation
+>
+> • 📊 FortisObserve → Privacy-first Real-Time Web Telemetry
 
 ---
 
 ## ⚪ `$ whoami`
 
-I enjoy building software that continues working when things go wrong. My interests lie at the intersection of **DevOps, backend engineering, observability, platform engineering, and distributed systems.**
+I enjoy building software that continues working when things go wrong. My work lies at the intersection of **distributed systems, Linux systems programming, DevOps, observability, and platform engineering.**
 
 📍 **Mysuru, Karnataka, India**
 
-- 🚌 **System Design:** Architected a real-time city bus tracking platform with role-based access, geofencing, offline synchronization, and secure backend services.
+- 🌐 **Distributed Systems:** Architecting a sovereign pseudo-operating system layer based on Content-Addressable Storage (CAS), demand-paged virtual filesystems, and Hybrid Logical Clocks.
 
-- 🔄 **DevOps:** I enjoy designing deployment pipelines, reproducible environments, infrastructure automation, and CI/CD workflows rather than treating deployment as an afterthought.
+- 🚌 **System Design:** Architected a production real-time city bus tracking platform with role-based access, geofencing, offline synchronization, and secure backend services.
 
-- 🐧 **Linux:** Daily Ubuntu user comfortable with Bash, systemd, networking, permissions, containerization, and production-style debugging.
+- 🔄 **DevOps & Platform:** Designing deployment pipelines, reproducible environments, infrastructure automation, and CI/CD workflows rather than treating deployment as an afterthought.
+
+- 🐧 **Linux:** Daily Ubuntu & Linux power-user comfortable with Bash, FUSE, systemd, networking, WireGuard/Tailscale, permissions, containerization, and production-style debugging.
 
 - 🛡️ **Infrastructure:** Docker-first development, container networking, AWS deployments, and infrastructure automation using modern DevOps practices.
 
@@ -72,13 +76,13 @@ I enjoy building software that continues working when things go wrong. My intere
 <div align="center">
 
 ### ⚙️ Systems • DevOps • Cloud
-[![DevOps](https://skillicons.dev/icons?i=linux,ubuntu,docker,terraform,aws,git,githubactions)](https://skillicons.dev)
+[![DevOps](https://skillicons.dev/icons?i=linux,ubuntu,docker,terraform,aws,cloudflare,git,githubactions)](https://skillicons.dev)
 
 ### 🏗️ Backend • Databases
-[![Backend](https://skillicons.dev/icons?i=nodejs,express,postgres,supabase,redis)](https://skillicons.dev)
+[![Backend](https://skillicons.dev/icons?i=nodejs,express,postgres,supabase,redis,sqlite)](https://skillicons.dev)
 
 ### 💻 Languages
-[![Languages](https://skillicons.dev/icons?i=ts,py,c,bash)](https://skillicons.dev)
+[![Languages](https://skillicons.dev/icons?i=go,ts,py,c,bash)](https://skillicons.dev)
 
 ### 🖥️ Frontend
 [![Frontend](https://skillicons.dev/icons?i=nextjs,react,tailwind)](https://skillicons.dev)
@@ -88,6 +92,22 @@ I enjoy building software that continues working when things go wrong. My intere
 ---
 
 ## 🏆 Featured Projects
+
+### 🌐 [Fortis Ecosystem (The Sovereign Pseudo-OS)](https://github.com/Fortis-Ecosystem)
+
+**A distributed, demand-paged pseudo-operating system layer eliminating the machine boundary.**
+
+> *One User, Many Machines. The user is permanent; hardware is temporary.*
+
+- 📦 **Content-Addressable Storage (CAS):** BLAKE3 hashing + FastCDC variable-sized chunking separating metadata from encrypted immutable blobs.
+- 📂 **Demand-Paged VFS:** Userspace Linux FUSE driver mounted at `~/Fortis`, demand-streaming cold chunks over Tailscale WireGuard mesh with local LRU caching.
+- 📱 **Platform Native Mobile:** Android Storage Access Framework (SAF) `DocumentsProvider` bypassing root barriers with Doze-tolerant background sync.
+- ⏱️ **Causal Concurrency:** Hybrid Logical Clocks (HLC) and OR-Set CRDTs eliminating silent data loss across offline network partitions.
+- 🔐 **Zero-Trust Identity:** 3-of-5 Shamir's Secret Sharing (SSS) for master cryptographic keys with mTLS and XChaCha20-Poly1305 AEAD.
+- 🛠️ **Stack:** Go, Linux FUSE, Tailscale / WireGuard, SQLite (WAL), Android SAF, BLAKE3.
+
+👉 **Read Architecture Deep Dive:** [Part 1: The Question That Ruined My Sleep](https://ganeshangadi.online/blog/fortis-pseudo-os) • [Part 2: Designing the Pseudo-OS](https://ganeshangadi.online/blog/fortis-pseudo-os-part-2)
+
 
 ### 🧠 [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI)
 
@@ -156,7 +176,20 @@ I enjoy building software that continues working when things go wrong. My intere
 
 ## ✍️ Engineering Writing
 
-I enjoy documenting engineering decisions, debugging sessions, system design, and the lessons hidden inside production failures. Every article is written from real projects, experiments, or mistakes that taught me something valuable.
+I enjoy documenting engineering decisions, debugging sessions, systems design, and the lessons hidden inside production failures. Every article is written from real projects, experiments, or mistakes that taught me something valuable.
+
+### 🌐 Distributed Systems & Fortis Series (Flagship)
+
+- 📖 **One User, Many Machines: The Question That Ruined My Sleep**  
+  *A corrupted Git repository forced me to question why my devices even needed to be separate machines in the first place.*  
+  🔗 *[Click to Read](https://ganeshangadi.online/blog/fortis-pseudo-os)*
+
+- 📖 **The Journey from Remote Shutdown Scripts to a Personal Ecosystem**  
+  *How a simple Python script to turn off my laptop from bed spiraled into an ecosystem that blurred the boundary between phone and PC.*  
+  🔗 *[Click to Read](https://ganeshangadi.online/blog/fortis-ecosystem)*
+
+
+
 
 ### 🚀 DevOps & Engineering
 
@@ -225,15 +258,17 @@ I enjoy documenting engineering decisions, debugging sessions, system design, an
 
 ## 👑 `$ tail -f /var/log/focus.log`
 
+- 🌐 **Fortis Pseudo-OS:** Engineering demand-paged VFS, Content-Addressable Storage, and cross-device causal event synchronization over Tailscale.
+
 - 🚀 **Fortis-CI:** Building an open-source graph-native deployment observability platform focused on deployment intelligence, automated rollback, and root cause analysis.
 
 - 🛠️ **Fortis-Tools:** Growing an ecosystem of lightweight developer tools that simplify automation, productivity, and everyday DevOps workflows.
 
-- 🏗️ **Platform Engineering:** Exploring distributed systems, Kubernetes, Terraform, cloud architecture, and production networking.
+- 🏗️ **Platform Engineering:** Exploring distributed systems, Linux kernel/VFS, Tailscale mesh networking, Kubernetes, Terraform, and production cloud architecture.
 
 - ✍️ **Engineering Writing:** Sharing real engineering stories, debugging sessions, architectural decisions, and lessons learned while building production systems.
 
-- 💼 **Looking For:** DevOps, Platform Engineering, Backend Engineering, and Site Reliability Engineering opportunities where reliability, automation, and system design matter.
+- 💼 **Looking For:** Systems Engineering, Distributed Systems, Platform Engineering, DevOps, and Site Reliability Engineering opportunities where reliability, automation, and system design matter.
 
 ---
 

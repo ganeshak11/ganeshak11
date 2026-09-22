@@ -168,14 +168,14 @@
 
     <!-- Specs Section (Lowered start to y=136) -->
     <text x="480" y="136">
-      <tspan x="480" dy="18" class="key">OS</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Ubuntu 24.04.4 LTS</tspan>
+      <tspan x="480" dy="18" class="key">OS</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Ubuntu 26.04.1 LTS</tspan>
 <tspan x="480" dy="18" class="key">Host</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">ganeshak11-Vostro-15-3515</tspan>
-<tspan x="480" dy="18" class="key">Uptime</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">20y 8m 9d 15h 57m 55s</tspan>
-<tspan x="480" dy="18" class="key">Kernel</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">6.8.0-134-generic</tspan>
+<tspan x="480" dy="18" class="key">Uptime</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">20y 8m 9d 17h 27m 23s</tspan>
+<tspan x="480" dy="18" class="key">Kernel</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">7.0.0-31-generic</tspan>
 <tspan x="480" dy="18" class="key">Shell</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">/bin/bash</tspan>
 <tspan x="480" dy="18" class="key">IDE</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">VS Code, Vim</tspan>
-<tspan x="480" dy="18" class="key">Languages</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">TypeScript, Python, Shell, C</tspan>
-<tspan x="480" dy="24" class="key">Building</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Fortis Ecosystem (Fortis-CI, Observe)</tspan>
+<tspan x="480" dy="18" class="key">Languages</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Go, TypeScript, Python, Shell, C</tspan>
+<tspan x="480" dy="24" class="key">Building</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">Fortis Pseudo-OS (CAS, VFS, Mesh)</tspan>
 <tspan x="480" dy="18" class="key">Telemetry</tspan><tspan x="570" class="separator">:</tspan><tspan x="590" class="val">S1 (8-Puzzle: 3s) | S2 (Rubik: 48s) | S3</tspan>
 <tspan x="590" dy="18" class="val">(Sudoku: 52s)</tspan>
     </text>
