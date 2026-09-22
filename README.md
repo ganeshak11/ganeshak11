@@ -1,8 +1,8 @@
-# Ganesh Angadi — Systems, DevOps & Distributed Platforms
+# Ganesh Angadi — DevOps, Platform & Systems Engineer
 
-**Systems Engineer • Distributed Systems • Platform & DevOps**
+**DevOps Engineer • Systems & Backend • Platform Engineering**
 
-I design and build distributed systems, virtual filesystems, and reliable, observable software infrastructures. I am the architect of the [Fortis Ecosystem](https://github.com/Fortis-Ecosystem)—a sovereign cross-device pseudo-OS unifying Linux and mobile terminals into one personal system—and creator of [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI), an open-source graph-native deployment observability platform. Passionate about distributed storage, Linux kernel/VFS, Tailscale mesh networks, and cloud infrastructure.
+I design and build reliable, observable software infrastructures and cross-device platforms. I am the architect of the [Fortis-Ecosystem](https://github.com/Fortis-Ecosystem)—a unified privacy-first security and cross-device platform built with Rust, Tailscale, and Linux—and creator of [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI), an open-source graph-native deployment observability platform.
 
 🌐 Website
 https://ganeshangadi.online
@@ -15,7 +15,7 @@ https://ganeshangadi.online/blog
 
 Creator and maintainer of :
 </br>
-[Fortis-Ecosystem](https://github.com/Fortis-Ecosystem) : Sovereign cross-device pseudo-OS, demand-paged VFS, and distributed tooling unifying Linux and Android.
+[Fortis-Ecosystem](https://github.com/Fortis-Ecosystem) : Cross-device tools and security services uniting Android and Linux into a single platform.
 </br>
 [Fortis-CI](https://github.com/Fortis-CI) : Graph-native deployment observability with automated rollback and root-cause analysis for CI/CD pipelines.
 </br>
@@ -39,9 +39,9 @@ Creator and maintainer of :
 
 > ### 🚧 Currently Building
 >
-> **Fortis Ecosystem & Distributed Systems**
+> **Fortis Ecosystem**
 >
-> • 🌐 Fortis Pseudo-OS → Demand-paged FUSE VFS, Content-Addressable Storage (BLAKE3), and Zero-Trust Identity over Tailscale
+> • 🛡️ Fortis-Ecosystem → Unified Cross-Device Security Platform (Rust, Tailscale, Tauri, Android)
 >
 > • 🧠 Fortis-CI → Graph-Native Deployment Observability Platform
 >
@@ -57,7 +57,7 @@ I enjoy building software that continues working when things go wrong. My work l
 
 📍 **Mysuru, Karnataka, India**
 
-- 🌐 **Distributed Systems:** Architecting a sovereign pseudo-operating system layer based on Content-Addressable Storage (CAS), demand-paged virtual filesystems, and Hybrid Logical Clocks.
+- 🛡️ **Cross-Device Systems:** Architect of the Fortis Ecosystem—a unified personal security and cross-device platform built with Rust, Tailscale, and Android.
 
 - 🚌 **System Design:** Architected a production real-time city bus tracking platform with role-based access, geofencing, offline synchronization, and secure backend services.
 
@@ -93,20 +93,20 @@ I enjoy building software that continues working when things go wrong. My work l
 
 ## 🏆 Featured Projects
 
-### 🌐 [Fortis Ecosystem (The Sovereign Pseudo-OS)](https://github.com/Fortis-Ecosystem)
+### 🛡️ [Fortis-Ecosystem](https://github.com/Fortis-Ecosystem)
 
-**A distributed, demand-paged pseudo-operating system layer eliminating the machine boundary.**
+**A unified, privacy-first personal security and cross-device platform.**
 
-> *One User, Many Machines. The user is permanent; hardware is temporary.*
+> *Cross-device tools and security services that make Android and Linux work as a single platform.*
 
-- 📦 **Content-Addressable Storage (CAS):** BLAKE3 hashing + FastCDC variable-sized chunking separating metadata from encrypted immutable blobs.
-- 📂 **Demand-Paged VFS:** Userspace Linux FUSE driver mounted at `~/Fortis`, demand-streaming cold chunks over Tailscale WireGuard mesh with local LRU caching.
-- 📱 **Platform Native Mobile:** Android Storage Access Framework (SAF) `DocumentsProvider` bypassing root barriers with Doze-tolerant background sync.
-- ⏱️ **Causal Concurrency:** Hybrid Logical Clocks (HLC) and OR-Set CRDTs eliminating silent data loss across offline network partitions.
-- 🔐 **Zero-Trust Identity:** 3-of-5 Shamir's Secret Sharing (SSS) for master cryptographic keys with mTLS and XChaCha20-Poly1305 AEAD.
-- 🛠️ **Stack:** Go, Linux FUSE, Tailscale / WireGuard, SQLite (WAL), Android SAF, BLAKE3.
+- 🦀 **Rust Core & Daemon:** Cargo workspace with `fortis-agent` daemon, `fortis-core` crypto engine, gRPC sync, Unix socket IPC, and UniFFI bindings.
+- 🔐 **Zero-Trust Security:** SQLCipher AES-256 encrypted vault, biometric PAM module (`fortis-pam`) for Linux `sudo`, and hardware keystore integration.
+- 🌐 **Mesh Synchronization:** Real-time cross-device sync connecting Android (`fortis-mobile`), Linux desktop (`fortis-desktop` via Tauri), and CLI (`fortis-cli`) over Tailscale WireGuard mesh.
+- 🔄 **Automated Resilience:** Automated encrypted snapshots, systemd timers, telemetry, and clipboard sync (`fortis-backup`).
+- 📊 **Telemetry & Extension:** Real-time privacy-first analytics (`fortis-observe`) and browser autofill shield (`fortis-lock`).
+- 🛠️ **Stack:** Rust, TypeScript, Tauri, Android Compose, SQLCipher, gRPC, Tailscale.
 
-👉 **Read Architecture Deep Dive:** [Part 1: The Question That Ruined My Sleep](https://ganeshangadi.online/blog/fortis-pseudo-os)
+👉 **View Organization:** https://github.com/Fortis-Ecosystem • **Read Ecosystem Story:** [From Remote Shutdown to Personal Ecosystem](https://ganeshangadi.online/blog/fortis-ecosystem)
 
 
 ### 🧠 [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI)

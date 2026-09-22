@@ -138,7 +138,7 @@ def generate_svg(uptime, stats):
         )
 
     # Wrap and render long building text
-    building_lines = wrap_text("Fortis Pseudo-OS (CAS, VFS, Mesh)", 42)
+    building_lines = wrap_text("Fortis Ecosystem (Rust, Tailscale)", 42)
     spec_rows.append(
         f'<tspan x="480" dy="24" class="key">Building</tspan>'
         f'<tspan x="570" class="separator">:</tspan>'
