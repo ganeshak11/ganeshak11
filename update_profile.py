@@ -107,7 +107,7 @@ def wrap_text(text, max_len=42):
 
 def generate_svg(uptime, stats):
     """The Frost terminal card: a dark glass window in Frost red, with the same fonts as the desktop."""
-    from make_banner import font_faces
+    from frost_svg import font_faces
 
     years, months, days, hours, minutes, seconds = uptime
     uptime_str = f"{years}y {months}m {days}d {hours}h {minutes}m"
@@ -120,7 +120,7 @@ def generate_svg(uptime, stats):
         ("DE", "KDE Plasma 6 · Frost"),
         ("Shell", "bash · kitty"),
         ("IDE", "VS Code, Vim"),
-        ("Languages", "Go, TypeScript, Rust, Python, C"),
+        ("Languages", "Rust, Kotlin, TypeScript, Python, Bash"),
         ("Building", "Fortis Ecosystem, Frost"),
     ]
     rows = []

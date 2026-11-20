@@ -1,317 +1,107 @@
-<img src="banner.svg" alt="Ganesh Angadi: DevOps, Platform and Systems Engineer" width="100%" />
-
-I design and build reliable, observable software infrastructures and cross-device platforms. I am the architect of the [Fortis-Ecosystem](https://github.com/Fortis-Ecosystem)—a unified privacy-first security and cross-device platform built with Rust, Tailscale, and Linux—and creator of [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI), an open-source graph-native deployment observability platform.
-
-🌐 Website
-https://ganeshangadi.online
-
-🐙 GitHub Profile
-https://github.com/ganeshak11
-
-📖 Engineering Blog
-https://ganeshangadi.online/blog
-
-Creator and maintainer of :
-</br>
-[Fortis-Ecosystem](https://github.com/Fortis-Ecosystem) : Cross-device tools and security services uniting Android and Linux into a single platform.
-</br>
-[Fortis-CI](https://github.com/Fortis-CI) : Graph-native deployment observability with automated rollback and root-cause analysis for CI/CD pipelines.
-</br>
-[Fortis-Tools](https://github.com/Fortis-Tools) : A collection of developer-focused utilities built to simplify operations, monitoring, and infrastructure management.
-
----
-
 <div align="center">
 
-<img src="terminal.svg" alt="Ganesh Angadi - Systems & DevOps Engineer" width="100%" />
+<img src="banner.svg" alt="Ganesh Angadi: systems engineer, distributed systems, cloud and DevOps" width="100%" />
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ganeshangadi.online-F21D43?style=for-the-badge&logo=vercel&labelColor=111114&logoColor=white)](https://ganeshangadi.online/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-F21D43?style=for-the-badge&logo=linkedin&labelColor=111114&logoColor=white)](https://linkedin.com/in/ganeshangadi1301)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-F21D43?style=for-the-badge&logo=gmail&labelColor=111114&logoColor=white)](mailto:ganeshangadi13012006@gmail.com)
+[![Portfolio](https://img.shields.io/badge/ganeshangadi.online-F21D43?style=for-the-badge&logo=vercel&logoColor=white&labelColor=111114)](https://ganeshangadi.online)
+[![Resume](https://img.shields.io/badge/Resume-111114?style=for-the-badge&logo=readdotcv&logoColor=F21D43)](https://ganeshangadi.online/resume.html)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111114?style=for-the-badge&logo=linkedin&logoColor=F21D43)](https://linkedin.com/in/ganeshangadi1301)
+[![Email](https://img.shields.io/badge/Email-111114?style=for-the-badge&logo=gmail&logoColor=F21D43)](mailto:ganeshangadi13012006@gmail.com)
+[![npx ganeshak11](https://img.shields.io/badge/npx_ganeshak11-111114?style=for-the-badge&logo=npm&logoColor=F21D43)](https://www.npmjs.com/package/ganeshak11)
 
-</div>
-
----
-
-> ### 🚧 Currently Building
->
-> **Fortis Ecosystem**
->
-> • 🛡️ Fortis-Ecosystem → Unified Cross-Device Security Platform (Rust, Tailscale, Tauri, Android)
->
-> • 🧠 Fortis-CI → Graph-Native Deployment Observability Platform
->
-> • 🛠️ Fortis-Tools → Open-source Developer Tooling & Automation
->
-> • 📊 FortisObserve → Privacy-first Real-Time Web Telemetry
->
-> • ❄️ Frost → Dark glass KDE Plasma desktop and an Android launcher that work as one machine
-
----
-
-## `$ whoami`
-
-I enjoy building software that continues working when things go wrong. My work lies at the intersection of **distributed systems, Linux systems programming, DevOps, observability, and platform engineering.**
-
-📍 **Mysuru, Karnataka, India**
-
-- 🛡️ **Cross-Device Systems:** Architect of the Fortis Ecosystem—a unified personal security and cross-device platform built with Rust, Tailscale, and Android.
-
-- 🚌 **System Design:** Architected a production real-time city bus tracking platform with role-based access, geofencing, offline synchronization, and secure backend services.
-
-- 🔄 **DevOps & Platform:** Designing deployment pipelines, reproducible environments, infrastructure automation, and CI/CD workflows rather than treating deployment as an afterthought.
-
-- 🐧 **Linux:** Daily Ubuntu & Linux power-user comfortable with Bash, FUSE, systemd, networking, WireGuard/Tailscale, permissions, containerization, and production-style debugging.
-
-- 🛡️ **Infrastructure:** Docker-first development, container networking, AWS deployments, and infrastructure automation using modern DevOps practices.
-
-- 📈 **Observability:** Passionate about understanding why systems fail, tracing failures across services, and designing software that is easier to operate than to debug.
-
----
-
-## `$ cat tech-stack.conf`
-
-<div align="center">
-
-### ⚙️ Systems • DevOps • Cloud
-[![DevOps](https://skillicons.dev/icons?i=linux,ubuntu,docker,terraform,aws,cloudflare,git,githubactions)](https://skillicons.dev)
-
-### 🏗️ Backend • Databases
-[![Backend](https://skillicons.dev/icons?i=nodejs,express,postgres,supabase,redis,sqlite)](https://skillicons.dev)
-
-### 💻 Languages
-[![Languages](https://skillicons.dev/icons?i=go,ts,py,c,bash)](https://skillicons.dev)
-
-### 🖥️ Frontend
-[![Frontend](https://skillicons.dev/icons?i=nextjs,react,tailwind)](https://skillicons.dev)
-
-</div>
-
----
-
-## 🏆 Featured Projects
-
-### ❄️ [Frost](https://github.com/ganeshak11/frost)
-
-**A dark-only, glassmorphic KDE Plasma 6 desktop, and a phone that behaves like part of it.**
-
-> *Dark glass, one red (`#F21D43`), Rufscript and JetBrains Mono. This profile wears it too.*
-
-<img src="https://raw.githubusercontent.com/ganeshak11/frost/main/docs/screenshots/desktop.jpg" alt="The Frost desktop" width="100%" />
-
-- 🪟 **Desktop:** Native Plasma widgets (Chronos, System Observatory, Music, Weather, Agenda, Screen Time, Quick Controls), a Mac-style dock and a Dynamic Island with live activities.
-- 🔎 **Spotlight:** Meta opens a search over apps, projects in `~/dev` (with git status), files, units, currencies and GitHub.
-- 📱 **Frost Mobile + Frost Link:** An Android launcher in the same style; notes, screen time, calendar and music sync with the laptop over Tailscale.
-- 🛠️ **Stack:** QML, Python, Kotlin, Jetpack Compose, KWin, Tailscale.
-
-👉 **View Repository:** https://github.com/ganeshak11/frost
-
-### 🛡️ [Fortis-Ecosystem](https://github.com/Fortis-Ecosystem)
-
-**A unified, privacy-first personal security and cross-device platform.**
-
-> *Cross-device tools and security services that make Android and Linux work as a single platform.*
-
-- 🦀 **Rust Core & Daemon:** Cargo workspace with `fortis-agent` daemon, `fortis-core` crypto engine, gRPC sync, Unix socket IPC, and UniFFI bindings.
-- 🔐 **Zero-Trust Security:** SQLCipher AES-256 encrypted vault, biometric PAM module (`fortis-pam`) for Linux `sudo`, and hardware keystore integration.
-- 🌐 **Mesh Synchronization:** Real-time cross-device sync connecting Android (`fortis-mobile`), Linux desktop (`fortis-desktop` via Tauri), and CLI (`fortis-cli`) over Tailscale WireGuard mesh.
-- 🔄 **Automated Resilience:** Automated encrypted snapshots, systemd timers, telemetry, and clipboard sync (`fortis-backup`).
-- 📊 **Telemetry & Extension:** Real-time privacy-first analytics (`fortis-observe`) and browser autofill shield (`fortis-lock`).
-- 🛠️ **Stack:** Rust, TypeScript, Tauri, Android Compose, SQLCipher, gRPC, Tailscale.
-
-👉 **View Organization:** https://github.com/Fortis-Ecosystem • **Read Ecosystem Story:** [From Remote Shutdown to Personal Ecosystem](https://ganeshangadi.online/blog/fortis-ecosystem)
-
-
-### 🧠 [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI)
-
-**Graph-native deployment observability platform built for modern CI/CD pipelines.**
-
-> *Not your CI. Your CI's brain.*
-
-- 🔍 **Graph Intelligence:** Neo4j-powered dependency graph connecting deployments, commits, services, files, and failures.
-- 📊 **Observability:** Deployment history, health monitoring, rollback automation, and blast-radius analysis.
-- ⚡ **Automation:** GitHub Actions integration, webhook-driven workflows, and automated deployment insights.
-- 🛠️ **Stack:** TypeScript, Node.js, Express, Neo4j, Redis, Next.js, GitHub Actions.
-
-👉 **View Repository:** https://github.com/Fortis-CI/Fortis-CI
-
-
-### 🛠️ [Fortis-Tools](https://github.com/Fortis-Tools)
-
-**Open-source developer tools focused on automation, productivity, and DevOps workflows.**
-
-- 📦 Lightweight CLI tools published to npm.
-- ⚙️ Automates repetitive development and infrastructure tasks.
-- 🚀 Built to improve developer experience with simple, composable utilities.
-- 🌱 Growing ecosystem of open-source tools maintained under the **Fortis-Tools** organization.
-
-👉 **View Organization:** https://github.com/Fortis-Tools
-
-
-### 🚌 [MY(suru) BUS](https://github.com/ganeshak11/MY-suru-BUS)
-
-**Production-grade real-time public transportation platform.**
-
-- 📍 Live GPS tracking with offline synchronization.
-- 📱 Native Driver & Passenger applications built with React Native.
-- 🖥️ Next.js Admin Dashboard for fleet operations.
-- 🔐 Role-based access control and geofence-powered stop detection.
-
-👉 **View Repository:** https://github.com/ganeshak11/MY-suru-BUS
-
-
-### ⚡ [AUTOops](https://github.com/keerthi-180205/autoops-ai)
-
-> *Hackathon Project*
-
-**AI-driven cloud infrastructure provisioning platform.**
-
-- ☁️ Designed AWS infrastructure and deployment architecture.
-- 🐳 Built secure container networking for internal AI agents.
-- ⚙️ Automated provisioning workflows using Docker and Node.js.
-
-**Stack:** Docker • AWS • React • Node.js • Python
-
-
-### 🔒 [Cyber Kavach](https://github.com/ganeshak11/Infra-Sentinel)
-
-> *Hackathon Project*
-
-**Real-time cloud threat detection and automated response platform.**
-
-- 🛡️ Designed containerized infrastructure for security services.
-- 🌐 Built isolated networking and automated deployment workflows.
-- 🚨 Focused on secure service communication and production-ready deployments.
-
-**Stack:** Docker • FastAPI • Python • Scikit-Learn • Nginx
-
----
-
-## ✍️ Engineering Writing
-
-I enjoy documenting engineering decisions, debugging sessions, systems design, and the lessons hidden inside production failures. Every article is written from real projects, experiments, or mistakes that taught me something valuable.
-
-### 🌐 Distributed Systems & Fortis Series (Flagship)
-
-- 📖 **One User, Many Machines: The Question That Ruined My Sleep**  
-  *A corrupted Git repository forced me to question why my devices even needed to be separate machines in the first place.*  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/fortis-pseudo-os)*
-
-- 📖 **The Journey from Remote Shutdown Scripts to a Personal Ecosystem**  
-  *How a simple Python script to turn off my laptop from bed spiraled into an ecosystem that blurred the boundary between phone and PC.*  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/fortis-ecosystem)*
-
-
-
-
-### 🚀 DevOps & Engineering
-
-- 📖 **How I Accidentally Blocked the Entire Internet During a Hackathon Demo**  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/accidentally-blocked-the-internet)*
-
-- 📖 **How I Won My First Hackathon**  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/my-first-hackathon-win)*
-
-
-### 🐧 Linux Journey
-
-- 📖 **I Didn't Switch to Linux. I Changed My Way of Living With Computers.**  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/why-linux)*
-
-- 📖 **How I Accidentally Became a Linux User**  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/how-i-became-a-linux-user)*
-
-- 📖 **Which Linux Distro Should You Choose? From Comfort to Chaos.**  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/which-linux-distro-to-choose)*
-
-
-### 🏎️ Systems Thinking
-
-- 📖 **Why Formula 1 Cars Are Just Math Equations Doing 300 km/h**  
-  🔗 *[Click to Read](https://ganeshangadi.online/blog/maths-behind-F1)*
-
-
-> *I believe writing is part of engineering. If you can't explain why a system works, you probably don't understand it well enough.*
-
----
-
-## `$ systemctl status speed_logic`
-
-*If debugging was an Olympic sport, I’d take silver. Gold goes to whoever wrote the bug.*
-
-| Challenge | Personal Best | Status |
-| :--- | :--- | :--- |
-| **8-Puzzle** | **3s** | ⚡ Speed Demon |
-| **Rubik’s Cube** | **48s** | ⏱️ Sub-1 Minute |
-| **Sudoku** | **52s** | 🧠 Logic-Driven |
-
----
-
-## `$ cat github_metrics.log`
-
-<div align="center">
-<table align="center" width="100%" style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=0A0A0D&title_color=F21D43&text_color=E8E8EE&icon_color=F21D43&border_color=26262C&count_private=true" height="195" alt="GitHub Stats"/>
-    </td>
-    <td align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=0A0A0D&title_color=F21D43&text_color=E8E8EE&border_color=26262C" height="195" alt="Top Languages"/>
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="profile-3d-contrib/profile-frost.svg" width="100%" alt="3D Contribution Graph"/>
-    </td>
-  </tr>
-</table>
-</div>
-
----
-
-## `$ tail -f /var/log/focus.log`
-
-- 🌐 **Fortis Pseudo-OS:** Engineering demand-paged VFS, Content-Addressable Storage, and cross-device causal event synchronization over Tailscale.
-
-- 🚀 **Fortis-CI:** Building an open-source graph-native deployment observability platform focused on deployment intelligence, automated rollback, and root cause analysis.
-
-- 🛠️ **Fortis-Tools:** Growing an ecosystem of lightweight developer tools that simplify automation, productivity, and everyday DevOps workflows.
-
-- 🏗️ **Platform Engineering:** Exploring distributed systems, Linux kernel/VFS, Tailscale mesh networking, Kubernetes, Terraform, and production cloud architecture.
-
-- ✍️ **Engineering Writing:** Sharing real engineering stories, debugging sessions, architectural decisions, and lessons learned while building production systems.
-
-- 💼 **Looking For:** Systems Engineering, Distributed Systems, Platform Engineering, DevOps, and Site Reliability Engineering opportunities where reliability, automation, and system design matter.
-
----
-
-<div align="center">
-
-> **Infrastructure isn't magic.**
->
-> *It's the accumulation of thousands of engineering decisions and their trade-offs.*
-
-<br/>
-
-<div align="center">
-  <!-- Replace YOUR_DISCORD_ID with your actual Discord User ID (instructions at lanyard.dev) -->
-  <a href="https://discord.com/users/1376903971725250621">
-    <img src="https://lanyard.cnrad.dev/api/1376903971725250621?theme=dark&bg=0A0A0D&borderRadius=8px" alt="Discord Status" />
-  </a>
 </div>
 
 <br/>
 
-### Let's build reliable systems.
+<img src="assets/cards/head-01.svg" alt="01 · whoami · About me" width="100%" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-F21D43?style=for-the-badge&logo=vercel&labelColor=111114&logoColor=white)](https://ganeshangadi.online)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-F21D43?style=for-the-badge&logo=linkedin&labelColor=111114&logoColor=white)](https://linkedin.com/in/ganeshangadi1301)
-[![Email](https://img.shields.io/badge/Email-Contact-F21D43?style=for-the-badge&logo=gmail&labelColor=111114&logoColor=white)](mailto:ganeshangadi13012006@gmail.com)
+I'm a systems engineer working on distributed systems, cloud, networking and DevOps. Most of my time goes into
+**[Fortis](https://github.com/Fortis-OS/fortis-ecosystem)**: a Rust agent and PAM module on the laptop, a Kotlin app on
+the phone, and a written security spec the code has to follow. Before that I built a city bus-tracking platform, and
+most recently I was the founding software engineer intern at Kridtech. On the side I made my own KDE theme,
+[Frost](https://github.com/ganeshak11/frost), which this page is dressed in. Mostly, I code for fun.
+
+<img src="terminal.svg" alt="ganesh@frost: system, specs and GitHub numbers, updated every six hours" width="100%" />
 
 <br/>
 
-![](https://komarev.com/ghpvc/?username=ganeshak11&color=F21D43&style=flat-square&label=PROFILE+VIEWS&labelColor=111114)
+<img src="assets/cards/head-02.svg" alt="02 · Fortis Ecosystem" width="100%" />
+
+<a href="https://github.com/Fortis-OS/fortis-ecosystem"><img src="assets/cards/fortis.svg" alt="Fortis Ecosystem: fortis-mobile (Kotlin) talks to fortis-agent (Rust) over Tailscale; vault, autofill, fingerprint sudo, TOTP, laptop remote, phone webcam, encrypted backups" width="100%" /></a>
+
+<p align="center">
+  <a href="https://github.com/Fortis-OS/fortis-ecosystem"><b>Repository</b></a> ·
+  <a href="https://github.com/Fortis-OS/fortis-ecosystem/tree/main/docs">The spec</a> ·
+  <a href="https://github.com/Fortis-OS/fortis-ecosystem/blob/main/docs/security/README.md">Security model</a> ·
+  <a href="https://ganeshangadi.online/blog/fortis-ecosystem">The story</a>
+</p>
+
+<br/>
+
+<img src="assets/cards/head-03.svg" alt="03 · Experience" width="100%" />
+
+<img src="assets/cards/experience.svg" alt="Founding Software Engineer (Intern) at Vaniger, Kridtech; 1st place, MCP-Based Systems Engineering Hackathon; AI and ML Intern at Artsy Technologies" width="100%" />
+
+<br/>
+
+<img src="assets/cards/head-04.svg" alt="04 · Projects" width="100%" />
+
+<p align="center"><a href="https://github.com/ganeshak11/frost"><img src="assets/cards/project-frost.svg" alt="Frost" width="50%" /></a><a href="https://ganeshangadi.online/blog/fortis-pseudo-os"><img src="assets/cards/project-fortisos.svg" alt="FortisOS" width="50%" /></a><a href="https://github.com/Fortis-Tools"><img src="assets/cards/project-fortis-tools.svg" alt="Fortis-Tools" width="50%" /></a><a href="https://github.com/ganeshak11/MY-suru-BUS"><img src="assets/cards/project-mysurubus.svg" alt="MY(suru) BUS" width="50%" /></a><a href="https://github.com/ganeshak11/mechkeys"><img src="assets/cards/project-mechkeys.svg" alt="mechkeys" width="50%" /></a><a href="https://github.com/ganeshak11/devcard-ganeshak11"><img src="assets/cards/project-devcard.svg" alt="DevCard" width="50%" /></a><a href="https://github.com/Fortis-OS/fortis-observe"><img src="assets/cards/project-fortis-observe.svg" alt="FortisObserve" width="50%" /></a><a href="https://github.com/Fortis-CI/Fortis-CI"><img src="assets/cards/project-fortis-ci.svg" alt="Fortis-CI" width="50%" /></a></p>
+
+<br/>
+
+<img src="assets/cards/head-05.svg" alt="05 · Stack" width="100%" />
+
+<img src="assets/cards/stack.svg" alt="Rust, Kotlin, TypeScript, Python, Bash; Linux, PAM, systemd, Tailscale; Docker, Terraform, GCP, AWS; GitHub Actions; Node.js, PostgreSQL, Redis, Neo4j" width="100%" />
+
+<br/>
+
+<img src="assets/cards/head-06.svg" alt="06 · Writing" width="100%" />
+
+Everything is written from real projects, experiments or mistakes. **[All posts →](https://ganeshangadi.online/blog)**
+
+| | |
+|:---|:---|
+| **Fortis** | [One User, Many Machines: The Question That Ruined My Sleep](https://ganeshangadi.online/blog/fortis-pseudo-os) |
+| | [The Journey from Remote Shutdown Scripts to a Personal Ecosystem](https://ganeshangadi.online/blog/fortis-ecosystem) |
+| **Hackathons** | [How I Accidentally Blocked the Entire Internet During a Hackathon Demo](https://ganeshangadi.online/blog/accidentally-blocked-the-internet) |
+| | [How I Won My First Hackathon](https://ganeshangadi.online/blog/my-first-hackathon-win) |
+| **Linux** | [I Didn't Switch to Linux. I Changed My Way of Living With Computers.](https://ganeshangadi.online/blog/why-linux) |
+| | [How I Accidentally Became a Linux User](https://ganeshangadi.online/blog/how-i-became-a-linux-user) |
+| | [Which Linux Distro to Choose: From Comfort to Chaos](https://ganeshangadi.online/blog/which-linux-distro-to-choose) |
+| **DevOps Duel** | Eight head-to-heads: Compose vs Kubernetes, Actions vs Jenkins, VMs vs containers, IPv4 vs IPv6 and more, [on the blog](https://ganeshangadi.online/blog) |
+| **Off-topic** | [Why F1 Cars Are Just Math Equations Doing 300 km/h](https://ganeshangadi.online/blog/maths-behind-F1) |
+
+<br/>
+
+<img src="assets/cards/head-07.svg" alt="07 · On GitHub" width="100%" />
+
+<p align="center">
+  <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=0A0A0D&title_color=F21D43&text_color=E8E8EE&icon_color=F21D43&border_color=26262C&border_radius=18&count_private=true" height="180" alt="GitHub stats" />
+  <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=0A0A0D&title_color=F21D43&text_color=E8E8EE&border_color=26262C&border_radius=18" height="180" alt="Top languages" />
+</p>
+
+<img src="profile-3d-contrib/profile-frost.svg" alt="3D contribution graph in Frost red" width="100%" />
+
+<br/>
+
+<img src="assets/cards/head-08.svg" alt="08 · Get in touch" width="100%" />
+
+<img src="assets/cards/footer.svg" alt="Infrastructure isn't magic. Open to roles in systems, cloud and DevOps/SRE." width="100%" />
+
+<div align="center">
+
+<br/>
+
+[![Email](https://img.shields.io/badge/ganeshangadi13012006@gmail.com-F21D43?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111114)](mailto:ganeshangadi13012006@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111114?style=for-the-badge&logo=linkedin&logoColor=F21D43)](https://linkedin.com/in/ganeshangadi1301)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111114?style=for-the-badge&logo=vercel&logoColor=F21D43)](https://ganeshangadi.online)
+
+<a href="https://discord.com/users/1376903971725250621"><img src="https://lanyard.cnrad.dev/api/1376903971725250621?theme=dark&bg=0A0A0D&borderRadius=18px" alt="Discord status" /></a>
+
+<br/>
+
+![Profile views](https://komarev.com/ghpvc/?username=ganeshak11&color=F21D43&style=flat-square&label=PROFILE+VIEWS&labelColor=111114)
 
 </div>
