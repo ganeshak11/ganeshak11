@@ -1,6 +1,4 @@
-# Ganesh Angadi — DevOps, Platform & Systems Engineer
-
-**DevOps Engineer • Systems & Backend • Platform Engineering**
+<img src="banner.svg" alt="Ganesh Angadi: DevOps, Platform and Systems Engineer" width="100%" />
 
 I design and build reliable, observable software infrastructures and cross-device platforms. I am the architect of the [Fortis-Ecosystem](https://github.com/Fortis-Ecosystem)—a unified privacy-first security and cross-device platform built with Rust, Tailscale, and Linux—and creator of [Fortis-CI](https://github.com/Fortis-CI/Fortis-CI), an open-source graph-native deployment observability platform.
 
@@ -29,9 +27,9 @@ Creator and maintainer of :
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ganeshangadi.online-D4AF37?style=for-the-badge&logo=vercel&labelColor=ffffff&logoColor=00529F)](https://ganeshangadi.online/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-D4AF37?style=for-the-badge&logo=linkedin&labelColor=ffffff&logoColor=00529F)](https://linkedin.com/in/ganeshangadi1301)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D4AF37?style=for-the-badge&logo=gmail&labelColor=ffffff&logoColor=00529F)](mailto:ganeshangadi13012006@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ganeshangadi.online-F21D43?style=for-the-badge&logo=vercel&labelColor=111114&logoColor=white)](https://ganeshangadi.online/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-F21D43?style=for-the-badge&logo=linkedin&labelColor=111114&logoColor=white)](https://linkedin.com/in/ganeshangadi1301)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-F21D43?style=for-the-badge&logo=gmail&labelColor=111114&logoColor=white)](mailto:ganeshangadi13012006@gmail.com)
 
 </div>
 
@@ -48,10 +46,12 @@ Creator and maintainer of :
 > • 🛠️ Fortis-Tools → Open-source Developer Tooling & Automation
 >
 > • 📊 FortisObserve → Privacy-first Real-Time Web Telemetry
+>
+> • ❄️ Frost → Dark glass KDE Plasma desktop and an Android launcher that work as one machine
 
 ---
 
-## ⚪ `$ whoami`
+## `$ whoami`
 
 I enjoy building software that continues working when things go wrong. My work lies at the intersection of **distributed systems, Linux systems programming, DevOps, observability, and platform engineering.**
 
@@ -71,7 +71,7 @@ I enjoy building software that continues working when things go wrong. My work l
 
 ---
 
-## 🟡 `$ cat tech-stack.conf`
+## `$ cat tech-stack.conf`
 
 <div align="center">
 
@@ -92,6 +92,21 @@ I enjoy building software that continues working when things go wrong. My work l
 ---
 
 ## 🏆 Featured Projects
+
+### ❄️ [Frost](https://github.com/ganeshak11/frost)
+
+**A dark-only, glassmorphic KDE Plasma 6 desktop, and a phone that behaves like part of it.**
+
+> *Dark glass, one red (`#F21D43`), Rufscript and JetBrains Mono. This profile wears it too.*
+
+<img src="https://raw.githubusercontent.com/ganeshak11/frost/main/docs/screenshots/desktop.jpg" alt="The Frost desktop" width="100%" />
+
+- 🪟 **Desktop:** Native Plasma widgets (Chronos, System Observatory, Music, Weather, Agenda, Screen Time, Quick Controls), a Mac-style dock and a Dynamic Island with live activities.
+- 🔎 **Spotlight:** Meta opens a search over apps, projects in `~/dev` (with git status), files, units, currencies and GitHub.
+- 📱 **Frost Mobile + Frost Link:** An Android launcher in the same style; notes, screen time, calendar and music sync with the laptop over Tailscale.
+- 🛠️ **Stack:** QML, Python, Kotlin, Jetpack Compose, KWin, Tailscale.
+
+👉 **View Repository:** https://github.com/ganeshak11/frost
 
 ### 🛡️ [Fortis-Ecosystem](https://github.com/Fortis-Ecosystem)
 
@@ -222,7 +237,7 @@ I enjoy documenting engineering decisions, debugging sessions, systems design, a
 
 ---
 
-## ⚽ `$ systemctl status speed_logic`
+## `$ systemctl status speed_logic`
 
 *If debugging was an Olympic sport, I’d take silver. Gold goes to whoever wrote the bug.*
 
@@ -234,21 +249,21 @@ I enjoy documenting engineering decisions, debugging sessions, systems design, a
 
 ---
 
-## 🔵 `$ cat github_metrics.log`
+## `$ cat github_metrics.log`
 
 <div align="center">
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=E3B341&border_color=30363D&count_private=true" height="195" alt="GitHub Stats"/>
+      <img src="https://github-readme-stats-rho-six-90.vercel.app/api?username=ganeshak11&show_icons=true&bg_color=0A0A0D&title_color=F21D43&text_color=E8E8EE&icon_color=F21D43&border_color=26262C&count_private=true" height="195" alt="GitHub Stats"/>
     </td>
     <td align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_color=30363D" height="195" alt="Top Languages"/>
+      <img src="https://github-readme-stats-rho-six-90.vercel.app/api/top-langs/?username=ganeshak11&layout=compact&bg_color=0A0A0D&title_color=F21D43&text_color=E8E8EE&border_color=26262C" height="195" alt="Top Languages"/>
     </td>
   </tr>
   <tr style="border: none;">
     <td colspan="2" align="center" style="border: none; padding: 5px; background: transparent;">
-      <img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph"/>
+      <img src="profile-3d-contrib/profile-frost.svg" width="100%" alt="3D Contribution Graph"/>
     </td>
   </tr>
 </table>
@@ -256,7 +271,7 @@ I enjoy documenting engineering decisions, debugging sessions, systems design, a
 
 ---
 
-## 👑 `$ tail -f /var/log/focus.log`
+## `$ tail -f /var/log/focus.log`
 
 - 🌐 **Fortis Pseudo-OS:** Engineering demand-paged VFS, Content-Addressable Storage, and cross-device causal event synchronization over Tailscale.
 
@@ -283,7 +298,7 @@ I enjoy documenting engineering decisions, debugging sessions, systems design, a
 <div align="center">
   <!-- Replace YOUR_DISCORD_ID with your actual Discord User ID (instructions at lanyard.dev) -->
   <a href="https://discord.com/users/1376903971725250621">
-    <img src="https://lanyard.cnrad.dev/api/1376903971725250621?theme=dark&bg=0D1117&borderRadius=8px" alt="Discord Status" />
+    <img src="https://lanyard.cnrad.dev/api/1376903971725250621?theme=dark&bg=0A0A0D&borderRadius=8px" alt="Discord Status" />
   </a>
 </div>
 
@@ -291,12 +306,12 @@ I enjoy documenting engineering decisions, debugging sessions, systems design, a
 
 ### Let's build reliable systems.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-D4AF37?style=for-the-badge&logo=vercel&labelColor=ffffff&logoColor=00529F)](https://ganeshangadi.online)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-D4AF37?style=for-the-badge&logo=linkedin&labelColor=ffffff&logoColor=00529F)](https://linkedin.com/in/ganeshangadi1301)
-[![Email](https://img.shields.io/badge/Email-Contact-D4AF37?style=for-the-badge&logo=gmail&labelColor=ffffff&logoColor=00529F)](mailto:ganeshangadi13012006@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-F21D43?style=for-the-badge&logo=vercel&labelColor=111114&logoColor=white)](https://ganeshangadi.online)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-F21D43?style=for-the-badge&logo=linkedin&labelColor=111114&logoColor=white)](https://linkedin.com/in/ganeshangadi1301)
+[![Email](https://img.shields.io/badge/Email-Contact-F21D43?style=for-the-badge&logo=gmail&labelColor=111114&logoColor=white)](mailto:ganeshangadi13012006@gmail.com)
 
 <br/>
 
-![](https://komarev.com/ghpvc/?username=ganeshak11&color=ffffff&style=flat-square&label=PROFILE+VIEWS&labelColor=D4AF37)
+![](https://komarev.com/ghpvc/?username=ganeshak11&color=F21D43&style=flat-square&label=PROFILE+VIEWS&labelColor=111114)
 
 </div>

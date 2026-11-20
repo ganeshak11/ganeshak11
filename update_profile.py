@@ -106,259 +106,154 @@ def wrap_text(text, max_len=42):
     return lines
 
 def generate_svg(uptime, stats):
+    """The Frost terminal card: a dark glass window in Frost red, with the same fonts as the desktop."""
+    from make_banner import font_faces
+
     years, months, days, hours, minutes, seconds = uptime
-    
-    # Format metrics with thousands separator
-    commits_str = f"{stats['commits']:,}"
-    stars_str = f"{stats['stars']:,}"
-    repos_str = f"{stats['repos']:,}"
-    followers_str = f"{stats['followers']:,}"
+    uptime_str = f"{years}y {months}m {days}d {hours}h {minutes}m"
 
-    # Build Uptime string
-    uptime_str = f"{years}y {months}m {days}d {hours}h {minutes}m {seconds}s"
-
-    # Static definitions for information fields (matching local Ubuntu system)
     specs = [
         ("OS", "Ubuntu 26.04.1 LTS"),
-        ("Host", "ganeshak11-Vostro-15-3515"),
+        ("Host", "Vostro 15 3515"),
+        ("Kernel", "7.0.0-44-generic"),
         ("Uptime", uptime_str),
-        ("Kernel", "7.0.0-31-generic"),
-        ("Shell", "/bin/bash"),
+        ("DE", "KDE Plasma 6 · Frost"),
+        ("Shell", "bash · kitty"),
         ("IDE", "VS Code, Vim"),
-        ("Languages", "Go, TypeScript, Python, Shell, C"),
+        ("Languages", "Go, TypeScript, Rust, Python, C"),
+        ("Building", "Fortis Ecosystem, Frost"),
     ]
+    rows = []
+    for i, (key, val) in enumerate(specs):
+        y = 132 + i * 24
+        rows.append(f'<text x="500" y="{y}" class="mono key">{key}</text>'
+                    f'<text x="612" y="{y}" class="mono val">{val}</text>')
+    specs_block = "\n    ".join(rows)
 
-    # Generate specs rows with alignment using absolute coordinates (flat sibling tspans)
-    spec_rows = []
-    for key, val in specs:
-        spec_rows.append(
-            f'<tspan x="480" dy="18" class="key">{key}</tspan>'
-            f'<tspan x="570" class="separator">:</tspan>'
-            f'<tspan x="590" class="val">{val}</tspan>'
-        )
+    tiles = [("COMMITS", stats["commits"]), ("STARS", stats["stars"]),
+             ("REPOS", stats["repos"]), ("FOLLOWERS", stats["followers"])]
+    tile_svg = []
+    for i, (label, value) in enumerate(tiles):
+        x = 500 + i * 106
+        tile_svg.append(
+            f'<rect x="{x}" y="372" width="96" height="74" rx="14" class="glass"/>'
+            f'<text x="{x + 14}" y="396" class="mono cap">{label}</text>'
+            f'<text x="{x + 14}" y="428" class="mono big">{value:,}</text>')
+    tiles_block = "\n    ".join(tile_svg)
 
-    # Wrap and render long building text
-    building_lines = wrap_text("Fortis Ecosystem (Rust, Tailscale)", 42)
-    spec_rows.append(
-        f'<tspan x="480" dy="24" class="key">Building</tspan>'
-        f'<tspan x="570" class="separator">:</tspan>'
-        f'<tspan x="590" class="val">{building_lines[0]}</tspan>'
-    )
-    for line in building_lines[1:]:
-        spec_rows.append(f'<tspan x="590" dy="18" class="val">{line}</tspan>')
+    ascii_rows = [
+        "  ██████╗  █████╗ ███╗   ██╗███████╗███████╗██╗  ██╗",
+        " ██╔════╝ ██╔══██╗████╗  ██║██╔════╝██╔════╝██║  ██║",
+        " ██║  ███╗███████║██╔██╗ ██║█████╗  ███████╗███████║",
+        " ██║   ██║██╔══██║██║╚██╗██║██╔══╝  ╚════██║██╔══██║",
+        " ╚██████╔╝██║  ██║██║ ╚████║███████╗███████║██║  ██║",
+        "  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝  ╚═╝",
+    ]
+    ascii_block = "".join(f'<tspan x="44" dy="{0 if i == 0 else 14}">{r}</tspan>' for i, r in enumerate(ascii_rows))
 
-    # Wrap and render long telemetry text
-    telemetry_lines = wrap_text("S1 (8-Puzzle: 3s) | S2 (Rubik: 48s) | S3 (Sudoku: 52s)", 42)
-    spec_rows.append(
-        f'<tspan x="480" dy="18" class="key">Telemetry</tspan>'
-        f'<tspan x="570" class="separator">:</tspan>'
-        f'<tspan x="590" class="val">{telemetry_lines[0]}</tspan>'
-    )
-    for line in telemetry_lines[1:]:
-        spec_rows.append(f'<tspan x="590" dy="18" class="val">{line}</tspan>')
+    def kv(x, y, key, val, cls="val", dot=False):
+        d = f'<circle cx="{x + 248}" cy="{y - 4}" r="3.5" fill="#F21D43"/>' if dot else ""
+        return (f'<text x="{x}" y="{y}" class="mono key2">{key}</text>'
+                f'<text x="{x + 360}" y="{y}" class="mono {cls}" text-anchor="end">{val}</text>{d}')
 
-    specs_block = "\n".join(spec_rows)
+    status = "\n    ".join([
+        kv(60, 252, "Status", "Active", "hot"),
+        kv(60, 276, "Memory", "4.1 / 5.7 GiB"),
+        kv(60, 300, "Disk", "176 / 468 GiB"),
+        kv(60, 324, "Phone", "linked over Tailscale"),
+    ])
+    infra = "\n    ".join([
+        kv(60, 400, "Pipeline", "Healthy", "hot"),
+        kv(60, 424, "Containers", "Running", "hot"),
+        kv(60, 448, "Infra", "Synced", "hot"),
+    ])
 
-    svg_content = rf"""<svg width="100%" height="100%" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Subtle window drop shadow filter -->
+    return f"""<svg width="100%" height="100%" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="shadow" x="0" y="0" width="960" height="540" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
-    </filter>
+    <style>
+{font_faces()}
+      .mono  {{ font-family: "Frost Mono", "JetBrains Mono", ui-monospace, monospace; font-size: 13px; }}
+      .ascii {{ font-family: "Frost Mono", "JetBrains Mono", ui-monospace, monospace; font-size: 11.5px; white-space: pre; font-weight: 500; }}
+      .script {{ font-family: "Rufscript", cursive; }}
+      .title {{ font-size: 13px; fill: #8a8a94; }}
+      .key   {{ fill: #F21D43; font-weight: 500; }}
+      .key2  {{ fill: #8a8a94; }}
+      .val   {{ fill: #e8e8ee; }}
+      .hot   {{ fill: #ff5a76; font-weight: 500; }}
+      .cap   {{ font-size: 10px; letter-spacing: 2px; fill: #8a8a94; }}
+      .big   {{ font-size: 22px; fill: #f4f4f6; font-weight: 500; }}
+      .label {{ font-size: 10.5px; letter-spacing: 3px; fill: #8a8a94; }}
+      .glass {{ fill: #ffffff; fill-opacity: 0.035; stroke: #ffffff; stroke-opacity: 0.08; }}
+      .cursor {{ fill: #F21D43; animation: blink 1s step-end infinite; }}
+      @keyframes blink {{ 50% {{ fill: transparent; }} }}
+    </style>
+    <radialGradient id="glowA" cx="0.88" cy="0.05" r="0.6">
+      <stop offset="0" stop-color="#F21D43" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#F21D43" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.05" cy="1" r="0.55">
+      <stop offset="0" stop-color="#F21D43" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#F21D43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff5a76"/>
+      <stop offset="1" stop-color="#F21D43"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="8" y="8" width="944" height="524" rx="20"/></clipPath>
     <clipPath id="type-clip">
-      <rect x="605" y="482" width="0" height="24">
-        <animate attributeName="width" values="0;7.2;14.4;21.6;28.8;36;43.2;50.4;57.6;57.6;57.6" dur="4s" repeatCount="indefinite" keyTimes="0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.8;1" />
+      <rect x="632" y="482" width="0" height="24">
+        <animate attributeName="width" values="0.0;7.8;15.6;23.4;31.2;39.0;46.8;54.6;62.4;70.2;70.2" dur="4s" repeatCount="indefinite" keyTimes="0;0.04;0.08;0.12;0.16;0.2;0.24;0.28;0.32;0.36;1"/>
       </rect>
     </clipPath>
   </defs>
 
-  <style>
-    .terminal {{
-      font-family: "Fira Code", "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-      font-size: 12px;
-      fill: #C9D1D9;
-    }}
-    .title-bar {{
-      fill: #161B22;
-    }}
-    .body {{
-      fill: #0D1117;
-    }}
-    .border {{
-      stroke: #30363D;
-      stroke-width: 1.5;
-    }}
-    .red-btn {{ fill: #FF5F56; }}
-    .yellow-btn {{ fill: #FFBD2E; }}
-    .green-btn {{ fill: #27C93F; }}
-    
-    .title-text {{
-      fill: #8B949E;
-      font-size: 12px;
-      text-anchor: middle;
-      font-weight: 500;
-    }}
-    
-    .ascii-text {{
-      fill: #E3B341;
-      font-family: "JetBrains Mono","Cascadia Code","Fira Code","Consolas", monospace;
-      font-weight: bold;
-      font-size: 11.5px;
-      white-space: pre;
-      letter-spacing: 0;
-    }}
-    
-    .status-panel-bg {{
-      fill: #161B22;
-      stroke: #30363D;
-      stroke-width: 1.5;
-    }}
-    
-    .prompt-user {{
-      fill: #E3B341;
-      font-weight: bold;
-    }}
-    .prompt-at {{
-      fill: #8B949E;
-    }}
-    .prompt-host {{
-      fill: #58A6FF;
-      font-weight: bold;
-    }}
-    
-    .key {{
-      fill: #58A6FF;
-      font-weight: bold;
-    }}
-    .val {{
-      fill: #C9D1D9;
-    }}
-    .separator {{
-      fill: #30363D;
-      stroke-width: 1.5;
-    }}
-    .heading {{
-      font-size: 13px;
-      font-weight: bold;
-    }}
-    .green-text {{
-      fill: #3FB950;
-      font-weight: bold;
-    }}
-    .yellow-text {{
-      fill: #E3B341;
-      font-weight: bold;
-    }}
-    .blue-text {{
-      fill: #58A6FF;
-      font-weight: bold;
-    }}
-    .dim-text {{
-      fill: #8B949E;
-    }}
-    
-    .cursor {{
-      fill: #58A6FF;
-      animation: blink 1s step-end infinite;
-    }}
-    @keyframes blink {{
-      from, to {{ fill: transparent }}
-      50% {{ fill: #58A6FF }}
-    }}
-  </style>
-
-  <g filter="url(#shadow)">
-    <!-- Terminal Window Background -->
-    <rect x="8" y="8" width="944" height="524" rx="8" class="body border" />
-    
-    <!-- Title Bar -->
-    <path d="M 8 16 A 8 8 0 0 1 16 8 L 944 8 A 8 8 0 0 1 952 16 L 952 40 L 8 40 Z" fill="#161B22" />
-    <line x1="8" y1="40" x2="952" y2="40" stroke="#30363D" stroke-width="1.5" />
-    
-    <!-- Window Controls -->
-    <circle cx="28" cy="24" r="6" class="red-btn" />
-    <circle cx="48" cy="24" r="6" class="yellow-btn" />
-    <circle cx="68" cy="24" r="6" class="green-btn" />
-    
-    <!-- Title Bar Text -->
-    <text x="480" y="28" class="title-text">ganesh@ubuntu: ~</text>
+  <g clip-path="url(#win)">
+    <rect x="8" y="8" width="944" height="524" fill="#0a0a0d"/>
+    <rect x="8" y="8" width="944" height="524" fill="url(#glowA)"/>
+    <rect x="8" y="8" width="944" height="524" fill="url(#glowB)"/>
+    <rect x="8" y="8" width="944" height="40" fill="#ffffff" fill-opacity="0.03"/>
+    <line x1="8" y1="48" x2="952" y2="48" stroke="#ffffff" stroke-opacity="0.07"/>
   </g>
+  <rect x="8.5" y="8.5" width="943" height="523" rx="19.5" stroke="url(#edge)"/>
 
-  <!-- Left Column: Logo and Status Panels -->
-  <g class="terminal">
-    <!-- ASCII Art Logo (Moved up to y=75) -->
-    <text x="48" y="75" class="ascii-text" xml:space="preserve">
-      <tspan x="48" dy="15">  ██████╗  █████╗ ███╗   ██╗███████╗███████╗██╗  ██╗</tspan>
-      <tspan x="48" dy="15"> ██╔════╝ ██╔══██╗████╗  ██║██╔════╝██╔════╝██║  ██║</tspan>
-      <tspan x="48" dy="15"> ██║  ███╗███████║██╔██╗ ██║█████╗  ███████╗███████║</tspan>
-      <tspan x="48" dy="15"> ██║   ██║██╔══██║██║╚██╗██║██╔══╝  ╚════██║██╔══██║</tspan>
-      <tspan x="48" dy="15"> ╚██████╔╝██║  ██║██║ ╚████║███████╗███████║██║  ██║</tspan>
-      <tspan x="48" dy="15">  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝  ╚═╝</tspan>
-    </text>
+  <!-- title bar: Frost window buttons -->
+  <circle cx="32" cy="28" r="6" fill="#F21D43"/>
+  <circle cx="52" cy="28" r="6" fill="#ffffff" fill-opacity="0.14"/>
+  <circle cx="72" cy="28" r="6" fill="#ffffff" fill-opacity="0.14"/>
+  <text x="480" y="32" class="mono title" text-anchor="middle">ganesh@frost: ~</text>
 
-    <!-- Status Panel Box (Moved up to y=218 and height adjusted) -->
-    <rect x="78" y="218" width="300" height="136" rx="6" class="status-panel-bg" />
-    
-    <!-- Status Panel Text inside the Box -->
-    <text x="98" y="248" class="ascii-text">
-      <tspan x="98" dy="0"><tspan class="key">Status    </tspan><tspan class="dim-text">:</tspan> <tspan class="green-text">Active</tspan></tspan>
-      <tspan x="98" dy="20"><tspan class="key">Memory    </tspan><tspan class="dim-text">:</tspan> <tspan class="val">3.9 / 5.7 GiB</tspan></tspan>
-      <tspan x="98" dy="20"><tspan class="key">Disk      </tspan><tspan class="dim-text">:</tspan> <tspan class="val">176 / 468 GiB</tspan></tspan>
-      <tspan x="98" dy="20"><tspan class="key">Docker    </tspan><tspan class="dim-text">:</tspan> <tspan class="val">0 Run | 13 Stop</tspan></tspan>
-      <tspan x="98" dy="20"><tspan class="key">CPU Load  </tspan><tspan class="dim-text">:</tspan> <tspan class="val">2.88</tspan></tspan>
-    </text>
+  <!-- left: name and status cards -->
+  <text x="44" y="92" class="ascii" fill="url(#ink)" xml:space="preserve">{ascii_block}</text>
 
-    <!-- DevOps Telemetry Box (Fills empty space in lower-left) -->
-    <rect x="78" y="368" width="300" height="92" rx="6" class="status-panel-bg" />
-    <text x="98" y="398" class="ascii-text">
-      <tspan x="98" dy="0"><tspan class="key">Pipeline   </tspan><tspan class="dim-text">:</tspan> <tspan class="green-text">Healthy</tspan></tspan>
-      <tspan x="98" dy="20"><tspan class="key">Containers </tspan><tspan class="dim-text">:</tspan> <tspan class="green-text">Running</tspan></tspan>
-      <tspan x="98" dy="20"><tspan class="key">Infra State</tspan><tspan class="dim-text">:</tspan> <tspan class="blue-text">Synced</tspan></tspan>
-    </text>
-  </g>
+  <rect x="40" y="208" width="400" height="136" rx="16" class="glass"/>
+  <text x="60" y="230" class="mono label">SYSTEM</text>
+    {status}
 
-  <!-- Right Column: Specs and Stats -->
-  <g class="terminal">
-    <!-- User/Host Prompt (Lowered to y=110) -->
-    <text x="480" y="110">
-      <tspan class="prompt-user">ganesh</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-host">ubuntu</tspan>
-    </text>
-    
-    <!-- Solid Grid Separator Line (Lowered to y=126) -->
-    <line x1="480" y1="126" x2="912" y2="126" stroke="#30363D" stroke-width="1.5" />
+  <rect x="40" y="358" width="400" height="108" rx="16" class="glass"/>
+  <text x="60" y="380" class="mono label">INFRASTRUCTURE</text>
+    {infra}
 
-    <!-- Specs Section (Lowered start to y=136) -->
-    <text x="480" y="136">
-      {specs_block}
-    </text>
+  <text x="44" y="504" class="script" font-size="17" fill="#8a8a94">Infrastructure isn't magic.</text>
 
-    <!-- Solid Grid Separator Line (Lowered to y=346) -->
-    <line x1="480" y1="346" x2="912" y2="346" stroke="#30363D" stroke-width="1.5" />
+  <!-- right: prompt, specs, metrics -->
+  <text x="500" y="92" class="mono" font-size="15"><tspan class="key">ganesh</tspan><tspan fill="#8a8a94">@</tspan><tspan class="val" font-weight="500">frost</tspan></text>
+  <line x1="500" y1="106" x2="920" y2="106" stroke="#ffffff" stroke-opacity="0.08"/>
+    {specs_block}
 
-    <!-- Dynamic Metrics Section Header (Lowered to y=374) -->
-    <text x="480" y="374" class="heading green-text">GitHub Dynamic Metrics</text>
+  <text x="500" y="358" class="mono label">GITHUB</text>
+    {tiles_block}
 
-    <!-- Metrics Table Rows (Tab-stop layout with dy increased by 2px) -->
-    <text x="480" y="386">
-      <tspan x="480" dy="24"><tspan class="key">Commits</tspan><tspan x="620" class="val">{commits_str}</tspan></tspan>
-      <tspan x="480" dy="22"><tspan class="key">Stars</tspan><tspan x="620" class="val">{stars_str}</tspan></tspan>
-      <tspan x="480" dy="22"><tspan class="key">Repositories</tspan><tspan x="620" class="val">{repos_str}</tspan></tspan>
-      <tspan x="480" dy="22"><tspan class="key">Followers</tspan><tspan x="620" class="val">{followers_str}</tspan></tspan>
-    </text>
-
-    <!-- Pinned Terminal Prompt (Raised to y=500 for better margin) -->
-    <text x="480" y="500">
-      <tspan class="prompt-user">ganesh</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-host">ubuntu</tspan><tspan class="val">:~$ </tspan>
-    </text>
-    <text x="605" y="500" class="val" clip-path="url(#type-clip)">neofetch</text>
-    <text x="605" y="500" class="cursor">
-      <animate attributeName="x" values="605;612.2;619.4;626.6;633.8;641;648.2;655.4;662.6;662.6;662.6" dur="4s" repeatCount="indefinite" keyTimes="0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.8;1" />
-      █
-    </text>
-  </g>
+  <text x="500" y="500" class="mono"><tspan class="key">ganesh</tspan><tspan fill="#8a8a94">@</tspan><tspan class="val">frost</tspan><tspan fill="#8a8a94">:~$ </tspan></text>
+  <text x="632" y="500" class="mono val" clip-path="url(#type-clip)">fastfetch</text>
+  <rect x="632" y="489" width="8" height="15" rx="1" class="cursor">
+    <animate attributeName="x" values="632.0;639.8;647.6;655.4;663.2;671.0;678.8;686.6;694.4;702.2;702.2" dur="4s" repeatCount="indefinite" keyTimes="0;0.04;0.08;0.12;0.16;0.2;0.24;0.28;0.32;0.36;1"/>
+  </rect>
 </svg>
 """
-    return svg_content
 
 def main():
     now = datetime.datetime.now(datetime.timezone.utc)
