@@ -82,7 +82,7 @@
     <text x="500" y="132" class="mono key">OS</text><text x="612" y="132" class="mono val">Ubuntu 26.04.1 LTS</text>
     <text x="500" y="156" class="mono key">Host</text><text x="612" y="156" class="mono val">Vostro 15 3515</text>
     <text x="500" y="180" class="mono key">Kernel</text><text x="612" y="180" class="mono val">7.0.0-44-generic</text>
-    <text x="500" y="204" class="mono key">Uptime</text><text x="612" y="204" class="mono val">20y 10m 14d 15h 51m</text>
+    <text x="500" y="204" class="mono key">Uptime</text><text x="612" y="204" class="mono val">20y 10m 15d 0h 51m</text>
     <text x="500" y="228" class="mono key">DE</text><text x="612" y="228" class="mono val">KDE Plasma 6 · Frost</text>
     <text x="500" y="252" class="mono key">Shell</text><text x="612" y="252" class="mono val">bash · kitty</text>
     <text x="500" y="276" class="mono key">IDE</text><text x="612" y="276" class="mono val">VS Code, Vim</text>
